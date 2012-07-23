@@ -1,0 +1,158 @@
+
+#ifdef FXCOMPOSER_VERSION // in fxcompser editor
+#include "include/common.cgh"
+#else
+#include "common.cgh"
+#endif
+
+
+/* data from application vertex buffer */
+struct appdata {
+    float3 Position	: POSITION;
+    float4 Color	: COLOR;
+    float4 ModelUV	: TEXCOORD0;
+    float2 SurfaceUV: TEXCOORD1;
+    float3 Normal	: NORMAL;
+    float3 Tangent	: TANGENT0;
+};
+
+
+struct vertexOutputSimple {
+    float4 HPosition	: POSITION;
+    float4 DiffuseContrib : COLOR;
+    float3 ModelUV		: TEXCOORD0;
+    float3 Light0Vec	: TEXCOORD1;
+    float3 WorldNormal	: TEXCOORD2;
+    float4 WorldView	: TEXCOORD3; // w - view space depth for SSAO
+    float3 SurfaceFresnel : TEXCOORD4; // z = frensel
+};
+
+
+/*********** GBuffer Vertex Shader ******/
+
+vertexOutputSimple ConcreteVP(appdata IN,
+	uniform float4x4 WorldITXf, // our four standard "untweakable" xforms
+	uniform float4x4 WorldXf,
+	uniform float4x4 ViewIXf,
+	uniform float4x4 WvpXf,
+	uniform float4x4 WvXf,	
+	uniform float4 Lamp0Pos,
+	uniform float4 Lamp1Pos,
+	uniform float Kr,
+	uniform float FresnelMin,
+	uniform float FresnelExp,
+	uniform float3 Lamp0Color,
+	uniform float3 Lamp1Color,
+	uniform float3 AmbiColor
+	) {
+    vertexOutputSimple OUT = (vertexOutputSimple)0;
+
+#ifdef FXCOMPOSER_VERSION // in fxcompser editor
+	IN.Color = float4(gSurfaceColor,1);
+#endif
+	
+	float3 diffuseContrib;
+	float3 ignore;
+	
+	float3 worldView;
+	
+	vs_shared_lighting_diffuse(
+		IN.Position,
+		IN.Normal,
+		IN.Tangent,
+		IN.Color.xyz,
+    	WorldITXf, // our four standard "untweakable" xforms
+		WorldXf,
+		ViewIXf,
+		WvpXf,
+    	Lamp0Pos,
+    	Lamp1Pos,
+		Lamp0Color,
+		Lamp1Color,
+		AmbiColor,
+		OUT.Light0Vec,
+		diffuseContrib,
+		worldView,
+		OUT.HPosition,
+		OUT.WorldNormal,
+		ignore,
+		ignore);
+
+
+	OUT.WorldView.xyz = worldView;
+	OUT.WorldView.w = -vs_compute_gbuffer_depth(IN.Position, WvXf) / GBUFFER_MAX_DEPTH;
+
+	OUT.DiffuseContrib = float4(diffuseContrib, IN.Color.w); // keep input color alpha
+	
+	OUT.ModelUV = IN.ModelUV.xyz;
+	OUT.SurfaceFresnel.xy = IN.SurfaceUV*0.18f;
+
+#ifdef ENABLE_FRESNEL
+	float3 Nn = normalize(OUT.WorldNormal);
+    float3 Vn = normalize(OUT.WorldView);
+    float KrMin = (Kr * FresnelMin);
+    float InvFrExp = (1.0/FresnelExp);
+    OUT.SurfaceFresnel.z = lerp(Kr,KrMin,pow(abs(dot(Nn,Vn)),InvFrExp));
+#else
+	OUT.SurfaceFresnel.z = Kr * FresnelMin * 2;
+#endif
+	
+    return OUT;
+}
+
+void ConcreteFP(vertexOutputSimple IN,
+		uniform float3 Lamp0Color,
+		uniform float Ks,
+		uniform float SpecExpon,
+		uniform float Kr,
+		uniform sampler2D StudsSampler,		
+		uniform sampler2D SurfaceSampler,
+		uniform samplerCUBE EnvSampler,
+		uniform float4 FogParams,
+		uniform float4 FogColour,
+#ifdef GBUFFER		
+		out float4 oColor1 : COLOR1,
+#endif
+		out float4 oColor : COLOR0
+)
+{
+#ifdef ENABLE_STUDS
+	float4 StudShade = tex2D(StudsSampler, IN.ModelUV.xy);
+#endif
+
+	float4 Concrete = 0.5* (tex2D(SurfaceSampler, IN.SurfaceFresnel.xy)*2-1);
+	
+    float3 specContrib;
+    float3 reflContrib;
+    float3 diffContrib;
+    float3 result;
+
+	float3 fresnel = IN.SurfaceFresnel;
+	
+	ps_shared_lighting_env_specularonly(
+				IN.WorldNormal, IN.WorldView.xyz, IN.Light0Vec,
+				Lamp0Color, // use lamp0Color as specular.
+				Ks, SpecExpon, Kr,
+				specContrib,
+				EnvSampler,
+				reflContrib);
+#ifdef ENABLE_STUDS
+	diffContrib = lerp(IN.DiffuseContrib.xyz+Concrete.xyz, StudShade.xyz, StudShade.w);
+#else
+	diffContrib = IN.DiffuseContrib.xyz+Concrete.xyz;
+#endif
+
+	result = diffContrib + specContrib; 
+#ifdef ENABLE_REFLECTIONS
+	result = lerp(result, reflContrib, fresnel);
+#endif
+
+	float fogAlpha = clamp( ( FogParams.z - ( IN.WorldView.w * 500.0 ) ) * FogParams.w, 0.0, 1.0 );
+	
+	oColor = float4( result, 1.0 ); 
+	oColor = lerp( FogColour, oColor, fogAlpha );
+    
+	#ifdef GBUFFER
+		oColor1 = packDeferred( lerp( 1.0, IN.WorldView.w, fogAlpha ), diffContrib, specContrib );
+	#endif
+}

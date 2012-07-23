@@ -1,0 +1,196 @@
+
+vertex_program ConcreteVP_gbufferCG cg
+{
+	source materials/programs/concrete.cgfx
+	profiles vs_1_1
+	entry_point ConcreteVP
+	
+	compile_arguments -DGBUFFER -DENABLE_STUDS
+}
+fragment_program ConcreteFP_gbufferCG cg
+{
+	source materials/programs/concrete.cgfx
+	entry_point ConcreteFP
+	profiles ps_2_x
+
+	compile_arguments -DGBUFFER -DENABLE_STUDS
+}
+
+// glsl programs
+vertex_program ConcreteVP_gbufferGLSL glsl
+{
+	source materials/programs/glsl/vert/concrete.vert
+	preprocessor_defines GLSL=1,GLSL_VERT=1,GBUFFER=1,ENABLE_STUDS=1
+}
+
+fragment_program ConcreteFP_gbufferGLSL glsl
+{
+	source materials/programs/glsl/frag/concrete.frag
+	preprocessor_defines GLSL=1,GLSL_FRAG=1,GBUFFER=1,ENABLE_STUDS=1
+	default_params
+	{
+		param_named StudsSampler int 0
+		param_named SurfaceSampler int 1
+		param_named EnvSampler int 2
+	}
+}
+
+// unified programs
+vertex_program ConcreteVP_gbuffer unified
+{
+	delegate ConcreteVP_gbufferCG
+	delegate ConcreteVP_gbufferGLSL
+}
+
+fragment_program ConcreteFP_gbuffer unified
+{
+	delegate ConcreteFP_gbufferCG
+	delegate ConcreteFP_gbufferGLSL
+}
+
+material Concrete_Low
+{
+	technique lod1
+	{
+		pass
+		{
+			// set ambient and diffuse colors to Lerp(CompoundColor1, CompoundColor2, MixedColorRatio)
+			// set specular to Lerp(Ks1, Ks2, MixedColorRatio) SpecExpo
+			
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.19 0.19 0.19 14
+			// mimic current wood shader limitation
+			max_lights 2
+		
+			texture_unit
+			{
+				texture_alias Studs
+				tex_coord_set 0
+				texture textures/surfacesAlpha.png
+				colour_op alpha_blend
+				//ignore alpha from SurfaceAlpha.png. Use fixed alpha. VERY IMPORTANT FOR OFF-SCREEN RENDERING!
+		        alpha_op_ex source1 src_manual src_manual 1 1 1
+		        filtering trilinear
+			}
+		}
+	}
+
+}
+
+material Concrete_Med : Concrete_Low
+{
+	lod_distances 160.0
+	
+	technique LegacyFF_lod0
+	{
+		lod_index 0
+		pass
+		{
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.19 0.19 0.19 14
+			// mimic current wood shader limitation
+			max_lights 2
+			
+			texture_unit
+			{
+				tex_coord_set 1
+				texture textures/ConcreteFallback.png
+		        filtering trilinear
+		        colour_op_ex add_signed src_texture src_current
+				//ignore alpha from SurfaceAlpha.png. Use alpha from vertices (in this case, it is not set, so use manual 1.0). VERY IMPORTANT FOR OFF-SCREEN RENDERING!
+		        alpha_op_ex source1 src_manual src_manual 1.0 1.0 1.0
+			transform 0.18 0 0 0    0 0.18 0 0    0 0 0.18 0    0 0 0 1
+		     	
+			}
+			
+			texture_unit
+			{
+				texture_alias Studs
+				tex_coord_set 0
+				texture textures/surfacesAlpha.png
+				colour_op alpha_blend
+				//ignore alpha from SurfaceAlpha.png. Use fixed alpha. VERY IMPORTANT FOR OFF-SCREEN RENDERING!
+		        alpha_op_ex source1 src_manual src_manual 1 1 1
+        
+		        filtering trilinear
+			}
+		}
+	}
+	
+	technique lod1
+	{
+		lod_index 1
+	}
+}
+
+// Concrete High currently uses Concrete Medium fixed function, very fast
+material Concrete_High : Concrete_Med
+{
+	technique LegacyFF_lod0
+	{
+	}
+
+	technique
+	{
+		scheme MRT
+		lod_index 0
+		pass
+		{
+			max_lights 2
+			
+			vertex_program_ref ConcreteVP_gbuffer
+			{
+				param_named_auto WorldITXf inverse_transpose_world_matrix
+				param_named_auto WorldXf world_matrix
+				param_named_auto ViewIXf inverse_view_matrix
+				param_named_auto WvpXf worldviewproj_matrix
+				param_named_auto WvXf worldview_matrix
+				param_named_auto AmbiColor ambient_light_colour
+				param_named_auto Lamp0Pos light_position 0
+				param_named_auto Lamp1Pos light_position 1
+				param_named_auto Lamp0Color light_diffuse_colour 0
+				param_named_auto Lamp1Color light_diffuse_colour 1
+			}
+
+			fragment_program_ref ConcreteFP_gbuffer
+			{
+				param_named_auto Lamp0Color light_diffuse_colour 0
+				param_named Ks float  0.75
+				param_named SpecExpon float  81
+				//param_named_auto cFarDistance far_clip_distance
+				param_named_auto FogColour fog_colour
+				param_named_auto FogParams fog_params
+			}
+			
+			texture_unit
+			{
+				texture_alias Studs
+				tex_coord_set 0
+				texture textures/SurfacesAlpha.png
+		        filtering trilinear
+			}
+			
+			texture_unit
+			{
+				texture_alias Concrete
+				tex_coord_set 1
+				texture textures/ConcreteFallback.png
+		        filtering trilinear
+		    }
+		    
+		    texture_unit
+			{
+				texture_alias SkyBox
+				tex_coord_set 2
+				texture textures/penv.dds cubic
+		        filtering trilinear
+			}
+		    
+		}
+	}
+
+}
+
+

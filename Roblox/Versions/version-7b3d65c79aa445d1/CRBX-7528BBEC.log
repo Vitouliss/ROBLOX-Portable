@@ -1,0 +1,335 @@
+01-23-2012 15:03:53 NP_GetEntryPoints
+01-23-2012 15:03:53 NPRobloxProxy: NP_Initialize
+01-23-2012 15:03:53 CoInitialize Ok
+01-23-2012 15:03:53 newv
+01-23-2012 15:03:53 location.host contains substring=roblox.com
+01-23-2012 15:03:53 setWindow
+01-23-2012 15:03:53 getvalue - scriptable object : NPP instance=00AC08C0 objList.find(instance)=00292C88
+01-23-2012 15:03:53 hasProperty
+01-23-2012 15:03:53 hasMethod
+01-23-2012 15:03:53 invoke
+01-23-2012 15:03:53 invokeRobloxAdapterHello 0x00ac08f0
+01-23-2012 15:03:53 IRobloxLauncher->Hello() result 0
+01-23-2012 15:03:53 RobloxAdapterHello result=11274456 size=6 ssMess=World
+01-23-2012 15:03:53 hasProperty
+01-23-2012 15:03:53 hasMethod
+01-23-2012 15:03:53 invoke
+01-23-2012 15:03:53 invokeRobloxAdapterGet_InstallHost 0x00ac08f0
+01-23-2012 15:03:53 RobloxAdapterGet_InstallHost result=11485792 size=17 ssMess=setup.roblox.com
+01-23-2012 15:03:53 setWindow
+01-23-2012 15:03:53 destroy
+01-23-2012 15:03:58 newv
+01-23-2012 15:03:58 location.host contains substring=roblox.com
+01-23-2012 15:03:58 setWindow
+01-23-2012 15:03:58 getvalue - scriptable object : NPP instance=00AC0850 objList.find(instance)=02EC78F8
+01-23-2012 15:03:58 hasProperty
+01-23-2012 15:03:58 hasMethod
+01-23-2012 15:03:58 invoke
+01-23-2012 15:03:58 invokeRobloxAdapterHello 0x00ac0c40
+01-23-2012 15:03:58 IRobloxLauncher->Hello() result 0
+01-23-2012 15:03:58 RobloxAdapterHello result=11275608 size=6 ssMess=World
+01-23-2012 15:03:58 hasProperty
+01-23-2012 15:03:58 hasMethod
+01-23-2012 15:03:58 invoke
+01-23-2012 15:03:58 invokeRobloxAdapterGet_InstallHost 0x00ac0c40
+01-23-2012 15:03:58 RobloxAdapterGet_InstallHost result=11534016 size=17 ssMess=setup.roblox.com
+01-23-2012 15:03:58 setWindow
+01-23-2012 15:03:58 destroy
+01-23-2012 15:04:03 newv
+01-23-2012 15:04:03 location.host contains substring=roblox.com
+01-23-2012 15:04:03 setWindow
+01-23-2012 15:04:03 getvalue - scriptable object : NPP instance=00AC0D20 objList.find(instance)=02EC78F8
+01-23-2012 15:04:03 hasProperty
+01-23-2012 15:04:03 hasMethod
+01-23-2012 15:04:03 invoke
+01-23-2012 15:04:03 invokeRobloxAdapterHello 0x00ac0778
+01-23-2012 15:04:03 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:03 RobloxAdapterHello result=11274080 size=6 ssMess=World
+01-23-2012 15:04:03 hasProperty
+01-23-2012 15:04:03 hasMethod
+01-23-2012 15:04:03 invoke
+01-23-2012 15:04:03 invokeRobloxAdapterGet_InstallHost 0x00ac0778
+01-23-2012 15:04:03 RobloxAdapterGet_InstallHost result=11534208 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:03 setWindow
+01-23-2012 15:04:03 destroy
+01-23-2012 15:04:06 newv
+01-23-2012 15:04:06 location.host contains substring=roblox.com
+01-23-2012 15:04:06 setWindow
+01-23-2012 15:04:06 getvalue - scriptable object : NPP instance=00AC0770 objList.find(instance)=02EC78F8
+01-23-2012 15:04:06 hasProperty
+01-23-2012 15:04:06 hasMethod
+01-23-2012 15:04:06 invoke
+01-23-2012 15:04:06 invokeRobloxAdapterHello 0x00ac07a8
+01-23-2012 15:04:06 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:06 RobloxAdapterHello result=11274128 size=6 ssMess=World
+01-23-2012 15:04:06 hasProperty
+01-23-2012 15:04:06 hasMethod
+01-23-2012 15:04:06 invoke
+01-23-2012 15:04:06 invokeRobloxAdapterGet_InstallHost 0x00ac07a8
+01-23-2012 15:04:06 RobloxAdapterGet_InstallHost result=11533056 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:06 setWindow
+01-23-2012 15:04:06 destroy
+01-23-2012 15:04:09 newv
+01-23-2012 15:04:09 location.host contains substring=roblox.com
+01-23-2012 15:04:09 setWindow
+01-23-2012 15:04:09 getvalue - scriptable object : NPP instance=00AC07A0 objList.find(instance)=02EC78F8
+01-23-2012 15:04:09 hasProperty
+01-23-2012 15:04:09 hasMethod
+01-23-2012 15:04:09 invoke
+01-23-2012 15:04:09 invokeRobloxAdapterHello 0x00ac07d8
+01-23-2012 15:04:09 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:09 RobloxAdapterHello result=11274176 size=6 ssMess=World
+01-23-2012 15:04:09 hasProperty
+01-23-2012 15:04:09 hasMethod
+01-23-2012 15:04:09 invoke
+01-23-2012 15:04:09 invokeRobloxAdapterGet_InstallHost 0x00ac07d8
+01-23-2012 15:04:09 RobloxAdapterGet_InstallHost result=11532320 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:09 setWindow
+01-23-2012 15:04:09 destroy
+01-23-2012 15:04:10 newv
+01-23-2012 15:04:10 location.host contains substring=roblox.com
+01-23-2012 15:04:10 setWindow
+01-23-2012 15:04:10 getvalue - scriptable object : NPP instance=00AC07D0 objList.find(instance)=02EC78F8
+01-23-2012 15:04:10 hasProperty
+01-23-2012 15:04:10 hasMethod
+01-23-2012 15:04:10 invoke
+01-23-2012 15:04:10 invokeRobloxAdapterHello 0x00ac0808
+01-23-2012 15:04:10 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:10 RobloxAdapterHello result=11274224 size=6 ssMess=World
+01-23-2012 15:04:10 hasProperty
+01-23-2012 15:04:10 hasMethod
+01-23-2012 15:04:10 invoke
+01-23-2012 15:04:10 invokeRobloxAdapterGet_InstallHost 0x00ac0808
+01-23-2012 15:04:10 RobloxAdapterGet_InstallHost result=11531968 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:10 setWindow
+01-23-2012 15:04:10 destroy
+01-23-2012 15:04:11 newv
+01-23-2012 15:04:11 location.host contains substring=roblox.com
+01-23-2012 15:04:11 setWindow
+01-23-2012 15:04:11 getvalue - scriptable object : NPP instance=00AC0800 objList.find(instance)=02EC78F8
+01-23-2012 15:04:11 hasProperty
+01-23-2012 15:04:11 hasMethod
+01-23-2012 15:04:11 invoke
+01-23-2012 15:04:11 invokeRobloxAdapterHello 0x00ac0838
+01-23-2012 15:04:11 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:11 RobloxAdapterHello result=11274272 size=6 ssMess=World
+01-23-2012 15:04:11 hasProperty
+01-23-2012 15:04:11 hasMethod
+01-23-2012 15:04:11 invoke
+01-23-2012 15:04:11 invokeRobloxAdapterGet_InstallHost 0x00ac0838
+01-23-2012 15:04:11 RobloxAdapterGet_InstallHost result=11530976 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:11 setWindow
+01-23-2012 15:04:11 destroy
+01-23-2012 15:04:11 newv
+01-23-2012 15:04:11 location.host contains substring=roblox.com
+01-23-2012 15:04:11 setWindow
+01-23-2012 15:04:11 getvalue - scriptable object : NPP instance=00AC0830 objList.find(instance)=02EC78F8
+01-23-2012 15:04:11 hasProperty
+01-23-2012 15:04:11 hasMethod
+01-23-2012 15:04:11 invoke
+01-23-2012 15:04:11 invokeRobloxAdapterHello 0x00ac06d8
+01-23-2012 15:04:11 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:11 RobloxAdapterHello result=11273920 size=6 ssMess=World
+01-23-2012 15:04:11 hasProperty
+01-23-2012 15:04:11 hasMethod
+01-23-2012 15:04:11 invoke
+01-23-2012 15:04:11 invokeRobloxAdapterGet_InstallHost 0x00ac06d8
+01-23-2012 15:04:11 RobloxAdapterGet_InstallHost result=11530304 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:11 setWindow
+01-23-2012 15:04:11 destroy
+01-23-2012 15:04:12 newv
+01-23-2012 15:04:12 location.host contains substring=roblox.com
+01-23-2012 15:04:12 setWindow
+01-23-2012 15:04:12 getvalue - scriptable object : NPP instance=00AC06D0 objList.find(instance)=02EC78F8
+01-23-2012 15:04:12 hasProperty
+01-23-2012 15:04:12 hasMethod
+01-23-2012 15:04:12 invoke
+01-23-2012 15:04:12 invokeRobloxAdapterHello 0x00ac0708
+01-23-2012 15:04:12 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:12 RobloxAdapterHello result=11273968 size=6 ssMess=World
+01-23-2012 15:04:12 hasProperty
+01-23-2012 15:04:12 hasMethod
+01-23-2012 15:04:12 invoke
+01-23-2012 15:04:12 invokeRobloxAdapterGet_InstallHost 0x00ac0708
+01-23-2012 15:04:12 RobloxAdapterGet_InstallHost result=11530496 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:12 setWindow
+01-23-2012 15:04:12 destroy
+01-23-2012 15:04:14 newv
+01-23-2012 15:04:14 location.host contains substring=roblox.com
+01-23-2012 15:04:14 setWindow
+01-23-2012 15:04:14 getvalue - scriptable object : NPP instance=00AC0700 objList.find(instance)=02EC78F8
+01-23-2012 15:04:14 hasProperty
+01-23-2012 15:04:14 hasMethod
+01-23-2012 15:04:14 invoke
+01-23-2012 15:04:14 invokeRobloxAdapterHello 0x00ac0738
+01-23-2012 15:04:14 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:14 RobloxAdapterHello result=11274016 size=6 ssMess=World
+01-23-2012 15:04:14 hasProperty
+01-23-2012 15:04:14 hasMethod
+01-23-2012 15:04:14 invoke
+01-23-2012 15:04:14 invokeRobloxAdapterGet_InstallHost 0x00ac0738
+01-23-2012 15:04:14 RobloxAdapterGet_InstallHost result=11542400 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:14 setWindow
+01-23-2012 15:04:14 destroy
+01-23-2012 15:04:15 newv
+01-23-2012 15:04:15 location.host contains substring=roblox.com
+01-23-2012 15:04:15 setWindow
+01-23-2012 15:04:15 getvalue - scriptable object : NPP instance=00AC0730 objList.find(instance)=02EC78F8
+01-23-2012 15:04:15 hasProperty
+01-23-2012 15:04:15 hasMethod
+01-23-2012 15:04:15 invoke
+01-23-2012 15:04:15 invokeRobloxAdapterHello 0x00ac0c50
+01-23-2012 15:04:15 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:15 RobloxAdapterHello result=11274064 size=6 ssMess=World
+01-23-2012 15:04:15 hasProperty
+01-23-2012 15:04:15 hasMethod
+01-23-2012 15:04:15 invoke
+01-23-2012 15:04:15 invokeRobloxAdapterGet_InstallHost 0x00ac0c50
+01-23-2012 15:04:15 RobloxAdapterGet_InstallHost result=11541248 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:15 setWindow
+01-23-2012 15:04:15 destroy
+01-23-2012 15:04:16 newv
+01-23-2012 15:04:16 location.host contains substring=roblox.com
+01-23-2012 15:04:16 setWindow
+01-23-2012 15:04:16 getvalue - scriptable object : NPP instance=00AC08C0 objList.find(instance)=02EC78F8
+01-23-2012 15:04:16 hasProperty
+01-23-2012 15:04:16 hasMethod
+01-23-2012 15:04:16 invoke
+01-23-2012 15:04:16 invokeRobloxAdapterHello 0x00ac09c8
+01-23-2012 15:04:16 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:16 RobloxAdapterHello result=11274616 size=6 ssMess=World
+01-23-2012 15:04:16 hasProperty
+01-23-2012 15:04:16 hasMethod
+01-23-2012 15:04:16 invoke
+01-23-2012 15:04:16 invokeRobloxAdapterGet_InstallHost 0x00ac09c8
+01-23-2012 15:04:16 RobloxAdapterGet_InstallHost result=11541696 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:16 setWindow
+01-23-2012 15:04:16 destroy
+01-23-2012 15:04:16 newv
+01-23-2012 15:04:16 location.host contains substring=roblox.com
+01-23-2012 15:04:16 setWindow
+01-23-2012 15:04:16 getvalue - scriptable object : NPP instance=00AC09C0 objList.find(instance)=02EC78F8
+01-23-2012 15:04:16 hasProperty
+01-23-2012 15:04:16 hasMethod
+01-23-2012 15:04:16 invoke
+01-23-2012 15:04:16 invokeRobloxAdapterHello 0x00ac0650
+01-23-2012 15:04:16 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:16 RobloxAdapterHello result=11274344 size=6 ssMess=World
+01-23-2012 15:04:16 hasProperty
+01-23-2012 15:04:16 hasMethod
+01-23-2012 15:04:16 invoke
+01-23-2012 15:04:16 invokeRobloxAdapterGet_InstallHost 0x00ac0650
+01-23-2012 15:04:16 RobloxAdapterGet_InstallHost result=11540160 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:16 setWindow
+01-23-2012 15:04:16 destroy
+01-23-2012 15:04:17 newv
+01-23-2012 15:04:17 location.host contains substring=roblox.com
+01-23-2012 15:04:17 setWindow
+01-23-2012 15:04:17 getvalue - scriptable object : NPP instance=00AC0648 objList.find(instance)=00298000
+01-23-2012 15:04:17 hasProperty
+01-23-2012 15:04:17 hasMethod
+01-23-2012 15:04:17 invoke
+01-23-2012 15:04:17 invokeRobloxAdapterHello 0x00ac0680
+01-23-2012 15:04:17 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:17 RobloxAdapterHello result=11273832 size=6 ssMess=World
+01-23-2012 15:04:17 hasProperty
+01-23-2012 15:04:17 hasMethod
+01-23-2012 15:04:17 invoke
+01-23-2012 15:04:17 invokeRobloxAdapterGet_InstallHost 0x00ac0680
+01-23-2012 15:04:17 RobloxAdapterGet_InstallHost result=11540736 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:17 setWindow
+01-23-2012 15:04:17 destroy
+01-23-2012 15:04:18 newv
+01-23-2012 15:04:18 location.host contains substring=roblox.com
+01-23-2012 15:04:18 setWindow
+01-23-2012 15:04:18 getvalue - scriptable object : NPP instance=00AC0678 objList.find(instance)=00298000
+01-23-2012 15:04:18 hasProperty
+01-23-2012 15:04:18 hasMethod
+01-23-2012 15:04:18 invoke
+01-23-2012 15:04:18 invokeRobloxAdapterHello 0x00ac06b0
+01-23-2012 15:04:18 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:18 RobloxAdapterHello result=11273880 size=6 ssMess=World
+01-23-2012 15:04:18 hasProperty
+01-23-2012 15:04:18 hasMethod
+01-23-2012 15:04:18 invoke
+01-23-2012 15:04:18 invokeRobloxAdapterGet_InstallHost 0x00ac06b0
+01-23-2012 15:04:18 RobloxAdapterGet_InstallHost result=11541056 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:18 setWindow
+01-23-2012 15:04:18 destroy
+01-23-2012 15:04:19 newv
+01-23-2012 15:04:19 location.host contains substring=roblox.com
+01-23-2012 15:04:19 setWindow
+01-23-2012 15:04:19 getvalue - scriptable object : NPP instance=00AC06A8 objList.find(instance)=00298000
+01-23-2012 15:04:19 hasProperty
+01-23-2012 15:04:19 hasMethod
+01-23-2012 15:04:19 invoke
+01-23-2012 15:04:19 invokeRobloxAdapterHello 0x00ac08c8
+01-23-2012 15:04:19 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:19 RobloxAdapterHello result=11274520 size=6 ssMess=World
+01-23-2012 15:04:19 hasProperty
+01-23-2012 15:04:19 hasMethod
+01-23-2012 15:04:19 invoke
+01-23-2012 15:04:19 invokeRobloxAdapterGet_InstallHost 0x00ac08c8
+01-23-2012 15:04:19 RobloxAdapterGet_InstallHost result=11539840 size=17 ssMess=setup.roblox.com
+01-23-2012 15:04:19 setWindow
+01-23-2012 15:04:19 destroy
+01-23-2012 15:04:20 newv
+01-23-2012 15:04:20 location.host contains substring=roblox.com
+01-23-2012 15:04:20 setWindow
+01-23-2012 15:04:20 getvalue - scriptable object : NPP instance=00AC08E0 objList.find(instance)=00298000
+01-23-2012 15:04:20 hasProperty
+01-23-2012 15:04:20 hasMethod
+01-23-2012 15:04:20 invoke
+01-23-2012 15:04:20 invokeRobloxAdapterHello 0x00ac0ca8
+01-23-2012 15:04:20 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:20 RobloxAdapterHello result=11274528 size=6 ssMess=World
+01-23-2012 15:04:20 hasProperty
+01-23-2012 15:04:20 hasMethod
+01-23-2012 15:04:20 invoke
+01-23-2012 15:04:20 invokeRobloxAdapterGet_InstallHost 0x00ac0ca8
+01-23-2012 15:04:20 RobloxAdapterGet_InstallHost result=11541088 size=26 ssMess=setup-gametest.roblox.com
+01-23-2012 15:04:20 setWindow
+01-23-2012 15:04:20 destroy
+01-23-2012 15:04:21 newv
+01-23-2012 15:04:21 location.host contains substring=roblox.com
+01-23-2012 15:04:21 setWindow
+01-23-2012 15:04:21 getvalue - scriptable object : NPP instance=00AC0928 objList.find(instance)=00298000
+01-23-2012 15:04:21 hasProperty
+01-23-2012 15:04:21 hasMethod
+01-23-2012 15:04:21 invoke
+01-23-2012 15:04:21 invokeRobloxAdapterHello 0x00ac0600
+01-23-2012 15:04:21 IRobloxLauncher->Hello() result 0
+01-23-2012 15:04:21 RobloxAdapterHello result=11274488 size=6 ssMess=World
+01-23-2012 15:04:21 hasProperty
+01-23-2012 15:04:21 hasMethod
+01-23-2012 15:04:21 invoke
+01-23-2012 15:04:21 invokeRobloxAdapterGet_InstallHost 0x00ac0600
+01-23-2012 15:04:21 RobloxAdapterGet_InstallHost result=11488224 size=26 ssMess=setup-gametest.roblox.com
+01-23-2012 15:04:21 hasProperty
+01-23-2012 15:04:21 hasMethod
+01-23-2012 15:04:21 invoke
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_start len = 29
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:04:21 hasProperty
+01-23-2012 15:04:21 hasMethod
+01-23-2012 15:04:21 invoke
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue key = rbx_evt_ftp len = 11
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:04:21 hasProperty
+01-23-2012 15:04:21 hasMethod
+01-23-2012 15:04:21 invoke
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_success len = 31
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:04:21 hasProperty
+01-23-2012 15:04:21 hasMethod
+01-23-2012 15:04:21 invoke
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue key = rbx_evt_fmp len = 11
+01-23-2012 15:04:21 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:04:21 setWindow
+01-23-2012 15:04:21 destroy
+01-23-2012 15:09:21 NPRobloxProxy: NP_Shutdown
+01-23-2012 15:09:21 CoUninitialize Ok

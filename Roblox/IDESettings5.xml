@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDE CompactMode="1">
+	<CommandBars>
+		<CommandBars>
+			<CommandBar Class="CXTPToolBar" BarID="128" Flags="63" Style="4194304" Title="Standard" MRUWidth="32767" IconSize="15, 16">
+				<Controls OriginalControls="1">
+					<Control Class="CXTPControlButton" Id="57600" Caption="New" TooltipText="New" DescriptionText="Create a new document"/>
+					<Control Class="CXTPControlButton" Id="57601" Caption="Open" TooltipText="Open" DescriptionText="Open an existing document"/>
+					<Control Class="CXTPControlButton" Id="57603" Caption="Save" TooltipText="Save" DescriptionText="Save the active document"/>
+					<Control Class="CXTPControlButton" Id="57635" BeginGroup="1" Caption="Cut" TooltipText="Cut" DescriptionText="Cut the selection and put it on the Clipboard"/>
+					<Control Class="CXTPControlButton" Id="57634" Caption="Copy" TooltipText="Copy" DescriptionText="Copy the selection and put it on the Clipboard"/>
+					<Control Class="CXTPControlButton" Id="57637" Caption="Paste" TooltipText="Paste" DescriptionText="Insert Clipboard contents"/>
+					<Control Class="CXTPControlPopup" Type="4" Id="57643" BeginGroup="1" Caption="&amp;Undo Drop" TooltipText="Undo" DescriptionText="Undo the last action" ShortcutTextAuto="Ctrl+Z" CommandBarId="16777216"/>
+					<Control Class="CXTPControlPopup" Type="4" Id="57644" Caption="&amp;Redo " TooltipText="Redo" DescriptionText="Redo the previously undone action" ShortcutTextAuto="Ctrl+Y" CommandBarId="16777217"/>
+					<Control Class="CXTPControlButton" Id="32825" BeginGroup="1" Caption="Group" TooltipText="Group" DescriptionText="Group parts or models"/>
+					<Control Class="CXTPControlButton" Id="32826" Caption="Ungroup" TooltipText="Ungroup" DescriptionText="Ungroup models or parts"/>
+					<Control Class="CXTPControlButton" Id="32835" BeginGroup="1" Caption="Rotate objects" TooltipText="Rotate objects" DescriptionText="Rotate objects"/>
+					<Control Class="CXTPControlButton" Id="32836" Caption="Tilt Objects" TooltipText="Tilt Objects" DescriptionText="Tilt objects"/>
+					<Control Class="CXTPControlButton" Id="32855" Caption="Move up" TooltipText="Move up" DescriptionText="Move objects up"/>
+					<Control Class="CXTPControlButton" Id="32856" Caption="Move down" TooltipText="Move down" DescriptionText="Move objects down"/>
+					<OriginalControls>
+						<Control Class="CXTPControlButton" Id="57600" Caption="New" TooltipText="New" DescriptionText="Create a new document"/>
+						<Control Class="CXTPControlButton" Id="57601" Caption="Open" TooltipText="Open" DescriptionText="Open an existing document"/>
+						<Control Class="CXTPControlButton" Id="57603" Caption="Save" TooltipText="Save" DescriptionText="Save the active document"/>
+						<Control Class="CXTPControlButton" Id="57635" BeginGroup="1" Caption="Cut" TooltipText="Cut" DescriptionText="Cut the selection and put it on the Clipboard"/>
+						<Control Class="CXTPControlButton" Id="57634" Caption="Copy" TooltipText="Copy" DescriptionText="Copy the selection and put it on the Clipboard"/>
+						<Control Class="CXTPControlButton" Id="57637" Caption="Paste" TooltipText="Paste" DescriptionText="Insert Clipboard contents"/>
+						<Control Class="CXTPControlPopup" Type="4" Id="57643" BeginGroup="1" Caption="Undo" TooltipText="Undo" DescriptionText="Undo the last action" CommandBarId="16777218"/>
+						<Control Class="CXTPControlPopup" Type="4" Id="57644" Caption="Redo" TooltipText="Redo" DescriptionText="Redo the previously undone action" CommandBarId="16777219"/>
+						<Control Class="CXTPControlButton" Id="32825" BeginGroup="1" Caption="Group" TooltipText="Group" DescriptionText="Group parts or models"/>
+						<Control Class="CXTPControlButton" Id="32826" Caption="Ungroup" TooltipText="Ungroup" DescriptionText="Ungroup models or parts"/>
+						<Control Class="CXTPControlButton" Id="32835" BeginGroup="1" Caption="Rotate objects" TooltipText="Rotate objects" DescriptionText="Rotate objects"/>
+						<Control Class="CXTPControlButton" Id="32836" Caption="Tilt Objects" TooltipText="Tilt Objects" DescriptionText="Tilt objects"/>
+						<Control Class="CXTPControlButton" Id="32855" Caption="Move up" TooltipText="Move up" DescriptionText="Move objects up"/>
+						<Control Class="CXTPControlButton" Id="32856" Caption="Move down" TooltipText="Move down" DescriptionText="Move objects down"/>
+					</OriginalControls>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777216" Style="4194304"/>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777217" Style="4194304"/>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777218" Style="4194304"/>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777219" Style="4194304"/>
+			<CommandBar Class="CXTPToolBar" Position="1" BarID="150" Flags="115" Style="4194304" Title="Command" MRUWidth="32767">
+				<Controls OriginalControls="1">
+					<Control Class="CPatchedControlComboBox" Type="5" Id="32963" Flags="32" Caption="Command &gt;" Style="1" Width="100" CommandBarId="16777220"/>
+					<Control Class="CXTPControlButton" Id="32986"/>
+					<OriginalControls>
+						<Control Class="CPatchedControlComboBox" Type="5" Id="32963" Flags="32" Caption="Command &gt;" Style="1" Width="100" CommandBarId="16777221"/>
+						<Control Class="CXTPControlButton" Id="32986"/>
+					</OriginalControls>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPControlComboBoxList" Type="2" Position="6" BarID="16777220">
+				<Items Count="10" Item0="game.Workspace.Camera.FieldOfView = 80" Item1="game.Workspace.Camera.FieldOfView = 20" Item2="game.Workspace.Camera.FieldOfView = 0.1" Item3="game:GetService(&quot;TeleportService&quot;):Teleport(21279423)" Item4="print(version())" Item5="dofile(&quot;C:\\Users\\Keegan\\Documents\\poop.Lua&quot;)" Item6="dofile(&quot;C:\\Users\\Keegan\\Document\\Poop.lua&quot;)" Item7="game:GetService(&quot;Chat&quot;):Chat(game.Workspace[&quot;VocabDude&quot;].Head, &quot;I am just some guy that looks like he's smart but is just an average noob&quot;,Enum.ChatColor.Green)" Item8="game:GetService(&quot;Chat&quot;):Chat(game.Workspace[&quot;BOT 1000&quot;].Head, &quot;I am just some guy that looks like he's smart but is just an average noob&quot;,Enum.ChatColor.Green)" Item9="game:GetService(&quot;Chat&quot;):Chat(game.Workspace.VocabDude.Head, &quot;I am just some guy that looks like he's smart but is just an average noob&quot;,Enum.ChatColor.Green)"/>
+			</CommandBar>
+			<CommandBar Class="CXTPControlComboBoxList" Type="2" Position="6" BarID="16777221"/>
+		</CommandBars>
+		<Layout>
+			<DockState Version="32" ScreenSize="1366, 768" Count="7">
+				<BarInfo0 BarId="1" MRUWidth="32767" MRUDockPos="1, 0, 1367, 25"/>
+				<BarInfo1 BarId="128" MRUWidth="32767" PointPos="0, 25" MRUDockPos="-3, 23, 360, 49"/>
+				<BarInfo2 BarId="135" MRUWidth="32767" PointPos="452, 25" MRUDockPos="452, 25, 873, 51"/>
+				<BarInfo3 BarId="228" MRUWidth="32767" PointPos="755, 25" MRUDockPos="874, 18, 1091, 44"/>
+				<BarInfo4 BarId="145" MRUWidth="32767" PointPos="2, 51" MRUDockPos="2, 51, 201, 77"/>
+				<BarInfo5 BarId="150" MRUWidth="32767" MRUDockPosition="1" MRUDockPos="1, 0, 1367, 26"/>
+				<BarInfo6 BarId="137" MRUWidth="32767" PointPos="363, 25" MRUDockPos="363, 26, 452, 52"/>
+			</DockState>
+			<DockBars>
+				<DockBar0 Count="10" Id1="1" Id3="128" Id4="135" Id5="137" Id6="228" Id8="145"/>
+				<DockBar1 Count="3" Id1="150"/>
+			</DockBars>
+		</Layout>
+	</CommandBars>
+	<Options Schema="32" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="1" LargeIcons="0" Animation="0">
+		<UsedCommands Count="8" Item0="32927" Item1="32959" Item2="32951" Item3="32783" Item4="32792" Item5="32805" Item6="57600" Item7="57635"/>
+	</Options>
+	<DockingPane>
+		<Summary Panes="17" TopContainer="9" Client="13"/>
+		<Pane-1 Type="0" DockingCX="276" DockingCY="300" Title="Explorer" ID="194" DockingHolder="15" FloatingHolder="7" LastHolder="15"/>
+		<Pane-2 Type="0" DockingCX="250" DockingCY="300" Title="Properties" ID="193" DockingHolder="16" LastHolder="16"/>
+		<Pane-3 Type="0" DockingCX="640" DockingCY="200" Title="Output" ID="192" DockingHolder="17" LastHolder="17"/>
+		<Pane-4 Type="0" DockingCX="330" DockingCY="400" Title="Diagnostics" ID="140" DockingHolder="10" LastHolder="10"/>
+		<Pane-5 Type="3" WindowRectTopPos="104" WindowRectBottomPos="392" WindowRectLeftPos="1087" WindowRectRightPos="1359" TopContaner="6"/>
+		<Pane-6 Type="2" DockingCX="250" DockingCY="187" Horiz="1" Panes="1" Pane-1="7"/>
+		<Pane-7 Type="1" DockingCX="250" DockingCY="187" Panes="0"/>
+		<Pane-8 Type="5" Direction="1" Panes="0"/>
+		<Pane-9 Type="2" Horiz="1" Panes="2" Pane-1="10" Pane-2="11"/>
+		<Pane-10 Type="1" DockingCX="330" DockingCY="400" Panes="0"/>
+		<Pane-11 Type="2" DockingCX="1032" Panes="2" Pane-1="12" Pane-2="17"/>
+		<Pane-12 Type="2" DockingCY="273" Horiz="1" Panes="2" Pane-1="13" Pane-2="14"/>
+		<Pane-13 Type="4"/>
+		<Pane-14 Type="2" DockingCX="279" DockingCY="379" Panes="2" Pane-1="15" Pane-2="16"/>
+		<Pane-15 Type="1" DockingCX="276" DockingCY="187" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-16 Type="1" DockingCX="250" DockingCY="188" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-17 Type="1" DockingCX="640" DockingCY="200" Panes="1" Selected="3" Pane-1="3"/>
+	</DockingPane>
+</IDE>

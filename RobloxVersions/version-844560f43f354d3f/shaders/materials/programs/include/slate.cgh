@@ -1,0 +1,77 @@
+
+#ifdef FXCOMPOSER_VERSION // in fxcompser editor
+#include "include/common.cgh"
+#else
+#include "common.cgh"
+#endif
+
+/********* pixel shader ********/
+void slatePSStuds(VertexOutput IN,
+		uniform float Ks,
+		uniform float SpecExpon,
+		uniform float3 Lamp0Color,
+		uniform float3 Lamp1Color,
+		uniform float3 AmbiColor,
+		uniform float NoiseScale,
+	   	uniform float NormMapScale,
+		uniform sampler2D StudsSamp,
+		uniform sampler3D NoiseSamp,
+		uniform sampler2D NormalSamp,
+		uniform float4 FogParams,
+		uniform float4 FogColour,
+#ifdef GBUFFER		
+		out float4 oColor1 : COLOR1,
+#endif
+		out float4 oColor : COLOR0
+)
+{
+	float4 studShade = tex2D(StudsSamp, IN.ModelUV.xy);
+
+	float fade = 1-abs(IN.ObjectNormal.w);
+	if(fade < 0)
+		fade = 0;
+	
+	float2 NormalUV = IN.ModelUV.zw; 
+	float3 shiftPos = IN.TexPos3D.xyz;
+
+    float3 noiseval = tex3D(NoiseSamp,shiftPos.xyz/NoiseScale*0.04).xyz;
+	float3 noiseval2 = tex3D(NoiseSamp,shiftPos.xyz/NoiseScale*0.3).xyz + 0.2;
+	noiseval *= noiseval2;
+
+	float3 dColor = IN.Color.xyz + 0.8* fade*(noiseval*0.5 - 0.1);
+	float3 tNorm = tex2D(NormalSamp,NormalUV).xyz - float3(0.5,0.5,0.5);
+
+	float tNormSum = 0.9+0.4*(tNorm.x + tNorm.y + tNorm.z);
+	dColor *= ((1-fade) + (fade*tNormSum));
+
+    float3 aWorldBinormal = cross(IN.WorldNormal, IN.WorldTangent);
+	float3 NnBump = normalize(tNorm.x*IN.WorldTangent +  tNorm.y*aWorldBinormal +  tNorm.z*IN.WorldNormal);
+    NnBump *= fade;
+	
+	float3 Nn = normalize(lerp(NnBump, IN.WorldNormal, 0.9 ));
+	
+	float3 diffContrib;
+	float3 specContrib;		
+
+	ps_shared_lighting(dColor, Nn, IN.WorldView.xyz, 
+				IN.Light0Vec, IN.Light1Vec,
+				Lamp0Color, Lamp1Color,
+				AmbiColor,
+				Ks, SpecExpon,
+				diffContrib,
+				specContrib);
+
+	diffContrib = lerp(diffContrib, studShade.xyz, studShade.w);
+	
+ 	float3 result = diffContrib + specContrib;
+
+	float fogAlpha = clamp( ( FogParams.z - ( IN.WorldView.w * 500.0 ) ) * FogParams.w, 0.0, 1.0 );
+	
+	oColor = float4( result, 1.0 ); 
+	oColor = lerp( FogColour, oColor, fogAlpha );
+    
+	#ifdef GBUFFER
+		oColor1 = packDeferred( lerp( 1.0, IN.WorldView.w, fogAlpha ), diffContrib, specContrib );
+	#endif
+}
+

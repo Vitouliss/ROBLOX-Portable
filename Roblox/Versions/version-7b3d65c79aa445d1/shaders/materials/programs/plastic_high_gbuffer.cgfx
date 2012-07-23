@@ -1,0 +1,6 @@
+#define ENABLE_STUDS
+#define ENABLE_REFLECTIONS
+#define ENABLE_FRESNEL
+#define GBUFFER
+
+#include "materials/programs/include/plastic.cgh"

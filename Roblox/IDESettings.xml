@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDE CompactMode="1">
+	<CommandBars>
+		<CommandBars>
+			<CommandBar Class="CXTPMenuBar" Type="0" BarID="1" Flags="5983" Style="4194304" Title="Menu Bar" MRUWidth="32767" Closeable="0" ResourceId="128">
+				<Controls OriginalControls="1">
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;File" CommandBarId="16777216"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Edit" CommandBarId="16777217"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;View" CommandBarId="16777220"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Insert" CommandBarId="16777222"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="For&amp;mat" CommandBarId="16777223"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Tools" CommandBarId="16777225"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Window" CommandBarId="16777227"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Help" CommandBarId="16777228"/>
+					<OriginalControls>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;File" CommandBarId="16777229"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Edit" CommandBarId="16777230"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;View" CommandBarId="16777233"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Insert" CommandBarId="16777235"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="For&amp;mat" CommandBarId="16777236"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Tools" CommandBarId="16777238"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Window" CommandBarId="16777240"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Help" CommandBarId="16777241"/>
+					</OriginalControls>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777216" Style="4194304" Title="File">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57600" Caption="&amp;New" TooltipText="New" DescriptionText="Create a new document" ShortcutTextAuto="Ctrl+N"/>
+					<Control Class="CXTPControlButton" Id="57601" Caption="&amp;Open..." TooltipText="Open" DescriptionText="Open an existing document" ShortcutTextAuto="Ctrl+O"/>
+					<Control Class="CXTPControlButton" Id="57602" Caption="&amp;Close" TooltipText="Close" DescriptionText="Close the active document"/>
+					<Control Class="CXTPControlButton" Id="57603" BeginGroup="1" Caption="&amp;Save" TooltipText="Save" DescriptionText="Save the active document" ShortcutTextAuto="Ctrl+S"/>
+					<Control Class="CXTPControlButton" Id="57604" Caption="Save &amp;As..." TooltipText="Save As" DescriptionText="Save the active document with a new name"/>
+					<Control Class="CXTPControlButton" Id="32950" Caption="Publish to ROBLOX..." TooltipText="Save the active document to Roblox" DescriptionText="Save the active document to Roblox"/>
+					<Control Class="CXTPControlButton" Id="32805" BeginGroup="1" Caption="&amp;Save Selection as Model..." TooltipText="Save the selection as a Model to a file" DescriptionText="Save the selection as a Model to a file"/>
+					<Control Class="CXTPControlButton" Id="32951" Caption="Publish Selection to ROBLOX..." TooltipText="Save the selection as a Model to Roblox" DescriptionText="Save the selection as a Model to Roblox"/>
+					<Control Class="CXTPControlButton" Id="57607" BeginGroup="1" Caption="&amp;Print..." TooltipText="Print" DescriptionText="Print the active document" ShortcutTextAuto="Ctrl+P"/>
+					<Control Class="CXTPControlButton" Id="57609" Caption="Print Pre&amp;view" TooltipText="Print Preview" DescriptionText="Display full pages"/>
+					<Control Class="CXTPControlButton" Id="57606" Caption="P&amp;rint Setup..." TooltipText="Print Setup" DescriptionText="Change the printer and printing options"/>
+					<Control Class="CXTPControlRecentFileList" Id="57616" BeginGroup="1" HideFlags="1" Caption="Recent File" TooltipText="Open this document" DescriptionText="Open this document"/>
+					<Control Class="CXTPControlButton" Id="57665" BeginGroup="1" Caption="E&amp;xit" TooltipText="Exit" DescriptionText="Quit the application; prompts to save documents"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777217" Style="4194304" Title="Edit">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57643" Caption="&amp;Undo " TooltipText="Undo" DescriptionText="Undo the last action" ShortcutTextAuto="Ctrl+Z"/>
+					<Control Class="CXTPControlButton" Id="57644" Caption="&amp;Redo " TooltipText="Redo" DescriptionText="Redo the previously undone action" ShortcutTextAuto="Ctrl+Y"/>
+					<Control Class="CXTPControlButton" Id="57635" BeginGroup="1" Caption="Cu&amp;t" TooltipText="Cut" DescriptionText="Cut the selection and put it on the Clipboard" ShortcutTextAuto="Ctrl+X"/>
+					<Control Class="CXTPControlButton" Id="57634" Caption="&amp;Copy" TooltipText="Copy" DescriptionText="Copy the selection and put it on the Clipboard" ShortcutTextAuto="Ctrl+C"/>
+					<Control Class="CXTPControlButton" Id="57637" Caption="&amp;Paste" TooltipText="Paste" DescriptionText="Insert Clipboard contents" ShortcutTextAuto="Ctrl+V"/>
+					<Control Class="CXTPControlButton" Id="57632" BeginGroup="1" Caption="Clear" TooltipText="Erase" DescriptionText="Erase the selection" ShortcutTextAuto="Del"/>
+					<Control Class="CXTPControlButton" Id="57642" Caption="Select &amp;All" TooltipText="Select All" DescriptionText="Select the entire document" ShortcutTextAuto="Ctrl+A"/>
+					<Control Class="CXTPControlButton" Id="32773" Caption="&amp;Duplicate" ShortcutTextAuto="Ctrl+D"/>
+					<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="Find and Replace" CommandBarId="16777218"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="Script" CommandBarId="16777219"/>
+					<Control Class="CXTPControlButton" Id="32784" BeginGroup="1" Caption="Lock"/>
+					<Control Class="CXTPControlButton" Id="32785" Caption="Unlock All"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777218" Style="4194304" Title="Find and Replace">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57636" Caption="&amp;Find..." TooltipText="Find" DescriptionText="Find the specified text" ShortcutTextAuto="Ctrl+F"/>
+					<Control Class="CXTPControlButton" Id="57640" Caption="Find &amp;Next" TooltipText="Repeat" DescriptionText="Repeat the last action" ShortcutTextAuto="F3"/>
+					<Control Class="CXTPControlButton" Id="57641" Caption="&amp;Replace..." TooltipText="Replace" DescriptionText="Replace specific text with different text" ShortcutTextAuto="Ctrl+H"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777219" Style="4194304" Title="Script">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32994" Caption="Display &amp;Line Numbers"/>
+					<Control Class="CXTPControlButton" Id="32995" Caption="Display &amp;Selection/Bookmark Margin"/>
+					<Control Class="CXTPControlButton" Id="32996" Caption="Display &amp;folding Margin"/>
+					<Control Class="CXTPControlButton" Id="32997" BeginGroup="1" Caption="&amp;Add a Marker"/>
+					<Control Class="CXTPControlButton" Id="32998" Caption="&amp;Delete Marker"/>
+					<Control Class="CXTPControlButton" Id="32999" Caption="Find &amp;Next Marker"/>
+					<Control Class="CXTPControlButton" Id="33000" Caption="Find &amp;Previous Marker"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777220" Style="4194304" Title="View">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32792" Caption="&amp;Explorer"/>
+					<Control Class="CXTPControlButton" Id="32783" Caption="&amp;Properties"/>
+					<Control Class="CXTPControlButton" Id="32927" Caption="&amp;Output"/>
+					<Control Class="CXTPControlButton" Id="32959" Caption="&amp;Start Page"/>
+					<Control Class="CXTPControlButton" Id="33011" Caption="&amp;Report"/>
+					<Control Class="CXTPControlButton" Id="33022" Caption="Toolbox"/>
+					<Control Class="CXTPControlButton" Id="33013" BeginGroup="1" Caption="Game Layout"/>
+					<Control Class="CXTPControlButton" Id="33012" Caption="Full Screen"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Toolbars" CommandBarId="16777221"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777221" Style="4194304" Title="Toolbars">
+				<Controls>
+					<Control Class="CXTPControlToolbars" Id="59392" Caption="&amp;Toolbar" TooltipText="Toggle ToolBar" DescriptionText="Show or hide the toolbar"/>
+					<Control Class="CXTPControlButton" Id="35001" BeginGroup="1" Caption="Customize..." TooltipText="&amp;Customize..." DescriptionText="Customize application appearance, toolbars, and menus"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777222" Style="4194304" Title="Insert">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32800" Caption="Model..."/>
+					<Control Class="CXTPControlButton" Id="33016" Caption="LDraw file..."/>
+					<Control Class="CXTPControlButton" Id="32866" BeginGroup="1" Caption="Decal..."/>
+					<Control Class="CXTPControlButton" Id="33006" Caption="Texture..."/>
+					<Control Class="CXTPControlButton" Id="32895" Caption="Object..."/>
+					<Control Class="CXTPControlButton" Id="33031" Caption="Service..."/>
+					<Control Class="CXTPControlButton" Id="32780" Caption="Tool"/>
+					<Control Class="CXTPControlButton" Id="32781" BeginGroup="1" Caption="Clear Tools in Starterpack"/>
+					<Control Class="CXTPControlButton" Id="32782" Caption="Clear Tools in My Backpack"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777223" Style="4194304" Title="Format">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32835" Caption="Rotate" TooltipText="Rotate objects" DescriptionText="Rotate objects" ShortcutTextAuto="Ctrl+R"/>
+					<Control Class="CXTPControlButton" Id="32836" Caption="Tilt" TooltipText="Tilt Objects" DescriptionText="Tilt objects"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="Camera Positioning" CommandBarId="16777224"/>
+					<Control Class="CXTPControlButton" Id="32825" BeginGroup="1" Caption="&amp;Group" TooltipText="Group" DescriptionText="Group parts or models" ShortcutTextAuto="Ctrl+G"/>
+					<Control Class="CXTPControlButton" Id="32826" Caption="&amp;Ungroup" TooltipText="Ungroup" DescriptionText="Ungroup models or parts" ShortcutTextAuto="Ctrl+U"/>
+					<Control Class="CXTPControlButton" Id="32938" BeginGroup="1" Caption="Set Model Front"/>
+					<Control Class="CXTPControlButton" Id="32939" Caption="Set Model Primary Part"/>
+					<Control Class="CXTPControlButton" Id="32865" BeginGroup="1" Caption="Replace Glue with Welds"/>
+					<Control Class="CXTPControlButton" Id="32933" Caption="Replace Weld with Snaps"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777224" Style="4194304" Title="Camera Positioning" TearOffPopup="1" TearOffCaption="Camera Positioning" TearOffId="1001" TearOffWidth="400">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32815" Caption="Fixed"/>
+					<Control Class="CXTPControlButton" Id="32930" Caption="Watching"/>
+					<Control Class="CXTPControlButton" Id="32816" Caption="Attached"/>
+					<Control Class="CXTPControlButton" Id="32931" Caption="Tracking"/>
+					<Control Class="CXTPControlButton" Id="32818" Caption="Following"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777225" Style="4194304" Title="Tools">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="33009" Caption="E&amp;xecute Script..."/>
+					<Control Class="CXTPControlButton" Id="32986" Caption="&amp;GC"/>
+					<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="Test" CommandBarId="16777226"/>
+					<Control Class="CXTPControlButton" Id="32984" Caption="Join Selected Bricks"/>
+					<Control Class="CXTPControlButton" Id="32980" Caption="Force Assertion"/>
+					<Control Class="CXTPControlButton" Id="32981" Caption="Engine Stats"/>
+					<Control Class="CXTPControlButton" Id="32982" Caption="Insert Model Raw..."/>
+					<Control Class="CXTPControlButton" Id="32983" Caption="Image Server Model View"/>
+					<Control Class="CXTPControlButton" Id="33024" Caption="Report Abuse..."/>
+					<Control Class="CXTPControlButton" Id="33025" Caption="Report Crashes..."/>
+					<Control Class="CXTPControlButton" Id="35001" BeginGroup="1" Caption="&amp;Customize..." TooltipText="&amp;Customize..." DescriptionText="Customize application appearance, toolbars, and menus"/>
+					<Control Class="CXTPControlButton" Id="32989" Caption="&amp;Settings..."/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777226" Style="4194304" Title="Test">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="33028" Caption="Play Solo"/>
+					<Control Class="CXTPControlButton" Id="33032" Caption="Start Server"/>
+					<Control Class="CXTPControlButton" Id="33033" Caption="Start Player"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777227" Style="4194304" Title="Window">
+				<Controls>
+					<Control Class="CXTPControlWindowList" Id="35000" HideFlags="1" Caption="Window List"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777228" Style="4194304" Title="Help">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57664" Caption="&amp;About Roblox..." TooltipText="About" DescriptionText="Display program information, version number and copyright"/>
+					<Control Class="CXTPControlButton" Id="57670" Caption="Online &amp;Help..." TooltipText="Help" DescriptionText="Display help for current task or command" ShortcutTextAuto="F1"/>
+					<Control Class="CXTPControlButton" Id="32990" Caption="&amp;Object Browser"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777229" Style="4194304" Title="File">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57600" Caption="&amp;New" TooltipText="New" DescriptionText="Create a new document" ShortcutTextAuto="Ctrl+N"/>
+					<Control Class="CXTPControlButton" Id="57601" Caption="&amp;Open..." TooltipText="Open" DescriptionText="Open an existing document" ShortcutTextAuto="Ctrl+O"/>
+					<Control Class="CXTPControlButton" Id="57602" Caption="&amp;Close" TooltipText="Close" DescriptionText="Close the active document"/>
+					<Control Class="CXTPControlButton" Id="57603" BeginGroup="1" Caption="&amp;Save" TooltipText="Save" DescriptionText="Save the active document" ShortcutTextAuto="Ctrl+S"/>
+					<Control Class="CXTPControlButton" Id="57604" Caption="Save &amp;As..." TooltipText="Save As" DescriptionText="Save the active document with a new name"/>
+					<Control Class="CXTPControlButton" Id="32950" Caption="Publish to ROBLOX..." TooltipText="Save the active document to Roblox" DescriptionText="Save the active document to Roblox"/>
+					<Control Class="CXTPControlButton" Id="32805" BeginGroup="1" Caption="&amp;Save Selection as Model..." TooltipText="Save the selection as a Model to a file" DescriptionText="Save the selection as a Model to a file"/>
+					<Control Class="CXTPControlButton" Id="32951" Caption="Publish Selection to ROBLOX..." TooltipText="Save the selection as a Model to Roblox" DescriptionText="Save the selection as a Model to Roblox"/>
+					<Control Class="CXTPControlButton" Id="57607" BeginGroup="1" Caption="&amp;Print..." TooltipText="Print" DescriptionText="Print the active document" ShortcutTextAuto="Ctrl+P"/>
+					<Control Class="CXTPControlButton" Id="57609" Caption="Print Pre&amp;view" TooltipText="Print Preview" DescriptionText="Display full pages"/>
+					<Control Class="CXTPControlButton" Id="57606" Caption="P&amp;rint Setup..." TooltipText="Print Setup" DescriptionText="Change the printer and printing options"/>
+					<Control Class="CXTPControlRecentFileList" Id="57616" BeginGroup="1" Caption="Recent File" TooltipText="Open this document" DescriptionText="Open this document"/>
+					<Control Class="CXTPControlButton" Id="57665" BeginGroup="1" Caption="E&amp;xit" TooltipText="Exit" DescriptionText="Quit the application; prompts to save documents"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777230" Style="4194304" Title="Edit">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57643" Caption="&amp;Undo" TooltipText="Undo" DescriptionText="Undo the last action" ShortcutTextAuto="Ctrl+Z"/>
+					<Control Class="CXTPControlButton" Id="57644" Caption="&amp;Redo" TooltipText="Redo" DescriptionText="Redo the previously undone action" ShortcutTextAuto="Ctrl+Y"/>
+					<Control Class="CXTPControlButton" Id="57635" BeginGroup="1" Caption="Cu&amp;t" TooltipText="Cut" DescriptionText="Cut the selection and put it on the Clipboard" ShortcutTextAuto="Ctrl+X"/>
+					<Control Class="CXTPControlButton" Id="57634" Caption="&amp;Copy" TooltipText="Copy" DescriptionText="Copy the selection and put it on the Clipboard" ShortcutTextAuto="Ctrl+C"/>
+					<Control Class="CXTPControlButton" Id="57637" Caption="&amp;Paste" TooltipText="Paste" DescriptionText="Insert Clipboard contents" ShortcutTextAuto="Ctrl+V"/>
+					<Control Class="CXTPControlButton" Id="57632" BeginGroup="1" Caption="Clear" TooltipText="Erase" DescriptionText="Erase the selection" ShortcutTextAuto="Del"/>
+					<Control Class="CXTPControlButton" Id="57642" Caption="Select &amp;All" TooltipText="Select All" DescriptionText="Select the entire document" ShortcutTextAuto="Ctrl+A"/>
+					<Control Class="CXTPControlButton" Id="32773" Caption="&amp;Duplicate" ShortcutTextAuto="Ctrl+D"/>
+					<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="Find and Replace" CommandBarId="16777231"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="Script" CommandBarId="16777232"/>
+					<Control Class="CXTPControlButton" Id="32784" BeginGroup="1" Caption="Lock"/>
+					<Control Class="CXTPControlButton" Id="32785" Caption="Unlock All"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777231" Style="4194304" Title="Find and Replace">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57636" Caption="&amp;Find..." TooltipText="Find" DescriptionText="Find the specified text" ShortcutTextAuto="Ctrl+F"/>
+					<Control Class="CXTPControlButton" Id="57640" Caption="Find &amp;Next" TooltipText="Repeat" DescriptionText="Repeat the last action" ShortcutTextAuto="F3"/>
+					<Control Class="CXTPControlButton" Id="57641" Caption="&amp;Replace..." TooltipText="Replace" DescriptionText="Replace specific text with different text" ShortcutTextAuto="Ctrl+H"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777232" Style="4194304" Title="Script">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32994" Caption="Display &amp;Line Numbers"/>
+					<Control Class="CXTPControlButton" Id="32995" Caption="Display &amp;Selection/Bookmark Margin"/>
+					<Control Class="CXTPControlButton" Id="32996" Caption="Display &amp;folding Margin"/>
+					<Control Class="CXTPControlButton" Id="32997" BeginGroup="1" Caption="&amp;Add a Marker"/>
+					<Control Class="CXTPControlButton" Id="32998" Caption="&amp;Delete Marker"/>
+					<Control Class="CXTPControlButton" Id="32999" Caption="Find &amp;Next Marker"/>
+					<Control Class="CXTPControlButton" Id="33000" Caption="Find &amp;Previous Marker"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777233" Style="4194304" Title="View">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32792" Caption="&amp;Explorer"/>
+					<Control Class="CXTPControlButton" Id="32783" Caption="&amp;Properties"/>
+					<Control Class="CXTPControlButton" Id="32927" Caption="&amp;Output"/>
+					<Control Class="CXTPControlButton" Id="32959" Caption="&amp;Start Page"/>
+					<Control Class="CXTPControlButton" Id="33011" Caption="&amp;Report"/>
+					<Control Class="CXTPControlButton" Id="33022" Caption="Toolbox"/>
+					<Control Class="CXTPControlButton" Id="33013" BeginGroup="1" Caption="Game Layout"/>
+					<Control Class="CXTPControlButton" Id="33012" Caption="Full Screen"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Toolbars" CommandBarId="16777234"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777234" Style="4194304" Title="Toolbars">
+				<Controls>
+					<Control Class="CXTPControlToolbars" Id="59392" Caption="&amp;Toolbar" TooltipText="Toggle ToolBar" DescriptionText="Show or hide the toolbar"/>
+					<Control Class="CXTPControlButton" Id="35001" BeginGroup="1" Caption="Customize..." TooltipText="&amp;Customize..." DescriptionText="Customize application appearance, toolbars, and menus"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777235" Style="4194304" Title="Insert">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32800" Caption="Model..."/>
+					<Control Class="CXTPControlButton" Id="33016" Caption="LDraw file..."/>
+					<Control Class="CXTPControlButton" Id="32866" BeginGroup="1" Caption="Decal..."/>
+					<Control Class="CXTPControlButton" Id="33006" Caption="Texture..."/>
+					<Control Class="CXTPControlButton" Id="32895" Caption="Object..."/>
+					<Control Class="CXTPControlButton" Id="33031" Caption="Service..."/>
+					<Control Class="CXTPControlButton" Id="32780" Caption="Tool"/>
+					<Control Class="CXTPControlButton" Id="32781" BeginGroup="1" Caption="Clear Tools in Starterpack"/>
+					<Control Class="CXTPControlButton" Id="32782" Caption="Clear Tools in My Backpack"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777236" Style="4194304" Title="Format">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32835" Caption="Rotate" TooltipText="Rotate objects" DescriptionText="Rotate objects" ShortcutTextAuto="Ctrl+R"/>
+					<Control Class="CXTPControlButton" Id="32836" Caption="Tilt" TooltipText="Tilt Objects" DescriptionText="Tilt objects"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="Camera Positioning" CommandBarId="16777237"/>
+					<Control Class="CXTPControlButton" Id="32825" BeginGroup="1" Caption="&amp;Group" TooltipText="Group" DescriptionText="Group parts or models" ShortcutTextAuto="Ctrl+G"/>
+					<Control Class="CXTPControlButton" Id="32826" Caption="&amp;Ungroup" TooltipText="Ungroup" DescriptionText="Ungroup models or parts" ShortcutTextAuto="Ctrl+U"/>
+					<Control Class="CXTPControlButton" Id="32938" BeginGroup="1" Caption="Set Model Front"/>
+					<Control Class="CXTPControlButton" Id="32939" Caption="Set Model Primary Part"/>
+					<Control Class="CXTPControlButton" Id="32865" BeginGroup="1" Caption="Replace Glue with Welds"/>
+					<Control Class="CXTPControlButton" Id="32933" Caption="Replace Weld with Snaps"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777237" Style="4194304" Title="Camera Positioning" TearOffPopup="1" TearOffCaption="Camera Positioning" TearOffId="1001" TearOffWidth="400">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32815" Caption="Fixed"/>
+					<Control Class="CXTPControlButton" Id="32930" Caption="Watching"/>
+					<Control Class="CXTPControlButton" Id="32816" Caption="Attached"/>
+					<Control Class="CXTPControlButton" Id="32931" Caption="Tracking"/>
+					<Control Class="CXTPControlButton" Id="32818" Caption="Following"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777238" Style="4194304" Title="Tools">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="33009" Caption="E&amp;xecute Script..."/>
+					<Control Class="CXTPControlButton" Id="32986" Caption="&amp;GC"/>
+					<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="Test" CommandBarId="16777239"/>
+					<Control Class="CXTPControlButton" Id="32984" Caption="Join Selected Bricks"/>
+					<Control Class="CXTPControlButton" Id="32980" Caption="Force Assertion"/>
+					<Control Class="CXTPControlButton" Id="32981" Caption="Engine Stats"/>
+					<Control Class="CXTPControlButton" Id="32982" Caption="Insert Model Raw..."/>
+					<Control Class="CXTPControlButton" Id="32983" Caption="Image Server Model View"/>
+					<Control Class="CXTPControlButton" Id="33024" Caption="Report Abuse..."/>
+					<Control Class="CXTPControlButton" Id="33025" Caption="Report Crashes..."/>
+					<Control Class="CXTPControlButton" Id="35001" BeginGroup="1" Caption="&amp;Customize..." TooltipText="&amp;Customize..." DescriptionText="Customize application appearance, toolbars, and menus"/>
+					<Control Class="CXTPControlButton" Id="32989" Caption="&amp;Settings..."/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777239" Style="4194304" Title="Test">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="33028" Caption="Play Solo"/>
+					<Control Class="CXTPControlButton" Id="33032" Caption="Start Server"/>
+					<Control Class="CXTPControlButton" Id="33033" Caption="Start Player"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777240" Style="4194304" Title="Window">
+				<Controls>
+					<Control Class="CXTPControlWindowList" Id="35000" Caption="Window List"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777241" Style="4194304" Title="Help">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57664" Caption="&amp;About Roblox..." TooltipText="About" DescriptionText="Display program information, version number and copyright"/>
+					<Control Class="CXTPControlButton" Id="57670" Caption="Online &amp;Help..." TooltipText="Help" DescriptionText="Display help for current task or command" ShortcutTextAuto="F1"/>
+					<Control Class="CXTPControlButton" Id="32990" Caption="&amp;Object Browser"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPToolBar" BarID="128" Flags="63" Style="4194304" Title="Standard" MRUWidth="32767" IconSize="15, 16">
+				<Controls OriginalControls="1">
+					<Control Class="CXTPControlButton" Id="57600" Caption="New" TooltipText="New" DescriptionText="Create a new document"/>
+					<Control Class="CXTPControlButton" Id="57601" Caption="Open" TooltipText="Open" DescriptionText="Open an existing document"/>
+					<Control Class="CXTPControlButton" Id="57603" Caption="Save" TooltipText="Save" DescriptionText="Save the active document"/>
+					<Control Class="CXTPControlButton" Id="57635" BeginGroup="1" Caption="Cut" TooltipText="Cut" DescriptionText="Cut the selection and put it on the Clipboard"/>
+					<Control Class="CXTPControlButton" Id="57634" Caption="Copy" TooltipText="Copy" DescriptionText="Copy the selection and put it on the Clipboard"/>
+					<Control Class="CXTPControlButton" Id="57637" Caption="Paste" TooltipText="Paste" DescriptionText="Insert Clipboard contents"/>
+					<Control Class="CXTPControlPopup" Type="4" Id="57643" BeginGroup="1" Caption="&amp;Undo " TooltipText="Undo" DescriptionText="Undo the last action" ShortcutTextAuto="Ctrl+Z" CommandBarId="16777242"/>
+					<Control Class="CXTPControlPopup" Type="4" Id="57644" Caption="&amp;Redo " TooltipText="Redo" DescriptionText="Redo the previously undone action" ShortcutTextAuto="Ctrl+Y" CommandBarId="16777243"/>
+					<Control Class="CXTPControlButton" Id="32825" BeginGroup="1" Caption="Group" TooltipText="Group" DescriptionText="Group parts or models"/>
+					<Control Class="CXTPControlButton" Id="32826" Caption="Ungroup" TooltipText="Ungroup" DescriptionText="Ungroup models or parts"/>
+					<Control Class="CXTPControlButton" Id="32835" BeginGroup="1" Caption="Rotate objects" TooltipText="Rotate objects" DescriptionText="Rotate objects"/>
+					<Control Class="CXTPControlButton" Id="32836" Caption="Tilt Objects" TooltipText="Tilt Objects" DescriptionText="Tilt objects"/>
+					<Control Class="CXTPControlButton" Id="32855" Caption="Move up" TooltipText="Move up" DescriptionText="Move objects up"/>
+					<Control Class="CXTPControlButton" Id="32856" Caption="Move down" TooltipText="Move down" DescriptionText="Move objects down"/>
+					<OriginalControls>
+						<Control Class="CXTPControlButton" Id="57600" Caption="New" TooltipText="New" DescriptionText="Create a new document"/>
+						<Control Class="CXTPControlButton" Id="57601" Caption="Open" TooltipText="Open" DescriptionText="Open an existing document"/>
+						<Control Class="CXTPControlButton" Id="57603" Caption="Save" TooltipText="Save" DescriptionText="Save the active document"/>
+						<Control Class="CXTPControlButton" Id="57635" BeginGroup="1" Caption="Cut" TooltipText="Cut" DescriptionText="Cut the selection and put it on the Clipboard"/>
+						<Control Class="CXTPControlButton" Id="57634" Caption="Copy" TooltipText="Copy" DescriptionText="Copy the selection and put it on the Clipboard"/>
+						<Control Class="CXTPControlButton" Id="57637" Caption="Paste" TooltipText="Paste" DescriptionText="Insert Clipboard contents"/>
+						<Control Class="CXTPControlPopup" Type="4" Id="57643" BeginGroup="1" Caption="Undo" TooltipText="Undo" DescriptionText="Undo the last action" CommandBarId="16777244"/>
+						<Control Class="CXTPControlPopup" Type="4" Id="57644" Caption="Redo" TooltipText="Redo" DescriptionText="Redo the previously undone action" CommandBarId="16777245"/>
+						<Control Class="CXTPControlButton" Id="32825" BeginGroup="1" Caption="Group" TooltipText="Group" DescriptionText="Group parts or models"/>
+						<Control Class="CXTPControlButton" Id="32826" Caption="Ungroup" TooltipText="Ungroup" DescriptionText="Ungroup models or parts"/>
+						<Control Class="CXTPControlButton" Id="32835" BeginGroup="1" Caption="Rotate objects" TooltipText="Rotate objects" DescriptionText="Rotate objects"/>
+						<Control Class="CXTPControlButton" Id="32836" Caption="Tilt Objects" TooltipText="Tilt Objects" DescriptionText="Tilt objects"/>
+						<Control Class="CXTPControlButton" Id="32855" Caption="Move up" TooltipText="Move up" DescriptionText="Move objects up"/>
+						<Control Class="CXTPControlButton" Id="32856" Caption="Move down" TooltipText="Move down" DescriptionText="Move objects down"/>
+					</OriginalControls>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777242" Style="4194304"/>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777243" Style="4194304"/>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777244" Style="4194304"/>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777245" Style="4194304"/>
+		</CommandBars>
+		<Layout>
+			<DockState Version="32" ScreenSize="1366, 768" Count="6">
+				<BarInfo0 BarId="1" MRUWidth="32767"/>
+				<BarInfo1 BarId="128" MRUWidth="32767" PointPos="0, 25"/>
+				<BarInfo2 BarId="135" MRUWidth="32767" PointPos="452, 25" MRUDockPos="452, 25, 541, 51"/>
+				<BarInfo3 BarId="137" MRUWidth="32767" PointPos="363, 25" MRUDockPos="363, 25, 726, 51"/>
+				<BarInfo4 BarId="145" MRUWidth="32767" PointPos="0, 51"/>
+				<BarInfo5 BarId="150" Visible="0" MRUWidth="32767"/>
+			</DockState>
+			<DockBars>
+				<DockBar0 Count="9" Id1="1" Id3="135" Id4="137" Id5="128" Id7="145"/>
+				<DockBar1 Count="3" Id1="150"/>
+			</DockBars>
+		</Layout>
+	</CommandBars>
+	<Options Schema="32" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="1" LargeIcons="0" Animation="0">
+		<UsedCommands Count="1" Item0="57600"/>
+	</Options>
+	<DockingPane>
+		<Summary Panes="9" TopContainer="4" Client="6"/>
+		<Pane-1 Type="0" DockingCX="250" DockingCY="300" Title="Explorer" ID="194" DockingHolder="8" LastHolder="8"/>
+		<Pane-2 Type="0" DockingCX="250" DockingCY="300" Title="Properties" ID="193" DockingHolder="9" LastHolder="9"/>
+		<Pane-3 Type="0" DockingCX="150" DockingCY="400" Title="Report" ID="140" DockingHolder="5" LastHolder="5"/>
+		<Pane-4 Type="2" Horiz="1" Panes="3" Pane-1="5" Pane-2="6" Pane-3="7"/>
+		<Pane-5 Type="1" DockingCX="150" DockingCY="400" Panes="0"/>
+		<Pane-6 Type="4"/>
+		<Pane-7 Type="2" DockingCX="250" DockingCY="300" Panes="2" Pane-1="8" Pane-2="9"/>
+		<Pane-8 Type="1" DockingCX="250" DockingCY="300" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-9 Type="1" DockingCX="250" DockingCY="300" Panes="1" Selected="2" Pane-1="2"/>
+	</DockingPane>
+</IDE>

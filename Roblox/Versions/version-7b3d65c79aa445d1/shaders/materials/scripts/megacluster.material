@@ -1,0 +1,100 @@
+
+abstract material MegaClusterTemplate
+{
+	lod_distances 320.0
+	technique lod1
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5
+            diffuse 1.0 1.0 1.0
+			// mimic current wood shader limitation
+			max_lights 2
+
+			texture_unit
+			{
+				tex_coord_set 0
+				texture $tex_file
+		        filtering trilinear
+		        tex_address_mode mirror
+		        
+		        colour_op_ex source1 src_texture src_texture
+		        alpha_op_ex source1 src_texture src_texture
+			}
+
+			texture_unit
+			{
+				tex_coord_set 1
+				texture $tex_file
+		        filtering trilinear
+		        tex_address_mode mirror
+		        
+		        colour_op_ex blend_current_alpha src_current src_texture
+			}
+
+			texture_unit
+			{
+		        colour_op_ex modulate src_current src_diffuse
+			}
+		}
+	}
+}
+
+material MegaCluster_Low : MegaClusterTemplate {
+	set $tex_file textures/clustermips.dds
+}
+
+material MegaCluster_Tiny : MegaClusterTemplate
+{
+	set $tex_file textures/clustermipssmall.dds
+}
+
+material MegaCluster_Water
+{
+	technique lod2
+	{
+		pass
+		{
+			//scene_blend alpha_blend
+			//depth_write off
+			ambient 0.5 0.5 0.5
+            diffuse 1.0 1.0 1.0
+            cull_hardware none
+            cull_software none
+
+            specular 1.0 1.0 1.0 12.5
+
+			// mimic current wood shader limitation
+			max_lights 2
+
+			texture_unit {
+				texture textures/water_Bottom.png
+				scroll_anim 0 0.4
+				tex_coord_set 0
+				colour_op_ex source1 src_texture src_texture
+				//alpha_op_ex source1 src_manual src_current 0.7
+			}
+
+			texture_unit {
+				texture textures/water_Top.png
+				scroll_anim 0 0.9
+				tex_coord_set 0
+				colour_op_ex blend_texture_alpha src_texture src_current 
+				//alpha_op_ex source1 src_current src_current
+			}
+
+			texture_unit {
+				texture textures/water_Low.dds
+				tex_coord_set 1
+				filtering trilinear
+				wave_xform scroll_x sine 1.0 0.05 0.0 0.32
+				wave_xform scroll_y sine 1.0 0.075 0.0 0.19
+				colour_op_ex blend_texture_alpha src_texture src_current
+			}
+
+			texture_unit {
+				colour_op_ex modulate src_current src_diffuse
+			}
+		}
+	}
+}

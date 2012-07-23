@@ -1,0 +1,49 @@
+
+vertex_program CommonVPGLSL glsl
+{
+	preprocessor_defines GLSL=1,GLSL_VERT=1
+	source materials/programs/glsl/common/common.vert
+}
+
+fragment_program CommonFPGLSL glsl
+{
+	preprocessor_defines GLSL=1,GLSL_FRAG=1
+	source materials/programs/glsl/common/common.frag
+}
+
+vertex_program CommonVP_gbufferGLSL glsl
+{
+	preprocessor_defines GLSL=1,GBUFFER=1,GLSL_VERT=1
+	source materials/programs/glsl/common/common.vert
+}
+
+fragment_program CommonFP_gbufferGLSL glsl
+{
+	preprocessor_defines GLSL=1,GBUFFER=1,GLSL_FRAG=1
+	source materials/programs/glsl/common/common.frag	
+}
+
+// Reflections
+vertex_program CommonVPGLSL_reflections glsl
+{
+	preprocessor_defines GLSL=1,GLSL_VERT=1,ENABLE_REFLECTIONS=1
+	source materials/programs/glsl/common/common.vert
+}
+
+fragment_program CommonFPGLSL_reflections glsl
+{
+	preprocessor_defines GLSL=1,GLSL_FRAG=1,ENABLE_REFLECTIONS=1
+	source materials/programs/glsl/common/common.frag
+}
+
+vertex_program CommonVPGLSL_gbuffer_reflections glsl
+{
+	preprocessor_defines GLSL=1,GBUFFER=1,GLSL_VERT=1,ENABLE_REFLECTIONS=1
+	source materials/programs/glsl/common/common.vert
+}
+
+fragment_program CommonFPGLSL_gbuffer_reflections glsl
+{
+	preprocessor_defines GLSL=1,GBUFFER=1,GLSL_FRAG=1,ENABLE_REFLECTIONS=1
+	source materials/programs/glsl/common/common.frag	
+}

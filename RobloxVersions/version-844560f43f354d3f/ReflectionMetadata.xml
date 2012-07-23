@@ -1,0 +1,2370 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Item class="ReflectionMetadataClasses">
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">37</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">TouchTransmitter</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">Used by networking and replication code to transmit touch events - no other purpose</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">37</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">ForceField</string>
+				<string name="summary">Prevents joint breakage from explosions, and stops Humanoids from taking damage</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">PluginManager</string>
+				<bool name="Preliminary">true</bool>
+				<int name="ExplorerOrder">9999</int>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">TeleportService</string>
+				<bool name="Preliminary">true</bool>
+				<int name="ExplorerOrder">9999</int>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">StudioTool</string>
+				<bool name="Preliminary">true</bool>
+				<int name="ExplorerOrder">9999</int>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">Plugin</string>
+				<bool name="Preliminary">true</bool>
+				<int name="ExplorerOrder">9999</int>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">PluginMouse</string>
+				<bool name="Preliminary">true</bool>
+				<int name="ExplorerOrder">9999</int>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Toolbar</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Button</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">DynamicRotate</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">Glue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">InsertService</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">ApproveAssetId</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Deprecated</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">ApproveAssetVersionId</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Deprecated</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">45</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Hat</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">LocalBackpack</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">MotorFeature</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Mouse</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">NetworkMarker</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ProfilingItem</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ChangeHistoryService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">Rotate</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">RotateP</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">RotateV</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">Motor6D</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9994</int>
+				<string name="Name">ScriptContext</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder"></int>
+				<string name="Name">Selection</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">VelocityMotor</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">Weld</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">TaskScheduler</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">SetThreadShare</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Deprecated</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">StatsItem</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">Snap</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">8</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">FileMesh</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">41</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">ClickDetector</string>
+				<string name="summary">Raises a mouse click event for its parent brick</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">40</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Clothing</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">59</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Smoke</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">Makes the parent part or model object emit smoke</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">42</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Sparkles</string>
+				<string name="summary">Makes the parent part or model object fantastic</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">36</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Explosion</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">61</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Fire</string>
+				<string name="summary">Makes the parent part or model object emit fire</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">35</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Seat</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">35</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Platform</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">Equivalent to a seat, except that the character stands up rather than sits down.</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">35</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">SkateboardPlatform</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">35</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">VehicleSeat</string>
+				<string name="summary">Automatically finds and powers hinge joints in an assembly.	Ignores motors.</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">17</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Tool</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">38</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Flag</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">39</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">FlagStand</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">20</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">BackpackItem</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">7</int>
+				<int name="ExplorerOrder">4</int>
+				<string name="Name">Decal</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">JointInstance</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">33</int>
+				<int name="ExplorerOrder">11</int>
+				<string name="Name">Message</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<bool name="Deprecated">true</bool>
+				<int name="ExplorerImageIndex">33</int>
+				<int name="ExplorerOrder">11</int>
+				<string name="Name">Hint</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">IntValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">RayValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">IntConstrainedValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">DoubleConstrainedValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">BoolValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">CustomEvent</string>
+				<string name="ExplorerOrder">3</string>
+				<string name="ExplorerImageIndex">4</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">CustomEventReceiver</string>
+				<string name="ExplorerOrder">3</string>
+				<string name="ExplorerImageIndex">4</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">TextureTrail</string>
+				<string name="ExplorerOrder">3</string>
+				<string name="ExplorerImageIndex">4</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">FloorWire</string>
+				<string name="ExplorerOrder">3</string>
+				<string name="ExplorerImageIndex">4</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">NumberValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">StringValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Vector3Value</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">CFrameValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Color3Value</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">BrickColorValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">4</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">ObjectValue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">8</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">SpecialMesh</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">8</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">BlockMesh</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">8</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">CylinderMesh</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">8</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">BevelMesh</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Bevel</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Bevel Roundness</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Bulge</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">8</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">DataModelMesh</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">LODX</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">LODY</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">10</int>
+				<int name="ExplorerOrder">4</int>
+				<string name="Name">Texture</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">11</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">Sound</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">play</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Deprecated. Use Play() instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">11</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">StockSound</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">31</int>
+				<int name="ExplorerOrder">50</int>
+				<string name="Name">SoundService</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">AmbientReverb</string>
+						<bool name="Preliminary">true</bool>
+						<string name="summary">The ambient sound environment.	May not work when using hardware sound</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">DopplerScale</string>
+						<bool name="Preliminary">true</bool>
+						<string name="summary">The doppler scale is a general scaling factor for how much the pitch varies due to doppler shifting in 3D sound. Doppler is the pitch bending effect when a sound comes towards the listener or moves away from it, much like the effect you hear when a train goes past you with its horn sounding. With dopplerscale you can exaggerate or diminish the effect.</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">DistanceFactor</string>
+						<bool name="Preliminary">true</bool>
+						<string name="summary">the relative distance factor, compared to 1.0 meters.</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">RolloffScale</string>
+						<bool name="Preliminary">true</bool>
+						<string name="summary">Setting this value makes the sound drop off faster or slower. The higher the value, the faster volume will attenuate, and conversely the lower the value, the slower it will attenuate. For example a rolloff factor of 1 will simulate the real world, where as a value of 2 will make sounds attenuate 2 times quicker.</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">20</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Backpack</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">20</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">StarterPack</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">20</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">StarterGear</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">46</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">StarterGui</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">28</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Sky</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Motor</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">9</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Humanoid</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">MoveTo</string>
+						<bool name="Preliminary">true</bool>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Jump</string>
+						<bool name="Preliminary">true</bool>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Sit</string>
+						<bool name="Preliminary">true</bool>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">TakeDamage</string>
+						<bool name="Preliminary">true</bool>
+						<string name="summary">Decreases health by the amount.	Use this instead of changing health directly to make sure weapons are filtered for things such as ForceField(s).</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Visit</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">BodyColors</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">43</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Shirt</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">44</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Pants</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">40</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">ShirtGraphic</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Skin</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">FaceInstance</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">GameSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">DebugSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">GlobalSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">NetworkSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">RenderSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">Authoring</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">PhysicsSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">LuaSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Item</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">NetworkPeer</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PVInstance</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">CoordinateFrame</string>
+						<string name="summary">Deprecated. Use CFrame instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">RootInstance</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ServiceProvider</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">service</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use GetService() instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<bool name="Deprecated">true</bool>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Hopper</string>
+				<string name="summary">Use StarterPack instead</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Instance</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">GetDebugId</string>
+						<string name="summary">This function is for internal testing. Don&apos;t use in production code</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Clone</string>
+						<string name="summary">Returns a copy of this Object and all its children. The copy&apos;s Parent is nil</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">clone</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use Clone() instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">isA</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use IsA() instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">children</string>
+						<string name="summary">Use GetChildren() instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">getChildren</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use GetChildren() instead</string>
+						</Properties>
+					</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">GetChildren</string>
+						<string name="summary">Returns a read-only table of this Object&apos;s children</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Remove</string>
+						<string name="summary">Deprecated. Use ClearAllChildren() to get rid of all child objects, or Destroy() to invalidate this object and its descendants</string>
+						<bool name="Deprecated">true</bool>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">remove</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use Remove() instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">ClearAllChildren</string>
+						<string name="summary">Removes all children (but not this object) from the workspace.</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Destroy</string>
+						<string name="summary">Removes object and all of its children from the workspace. Disconnects object and all children from open connections. Object and children may not be usable after calling Destroy.</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">findFirstChild</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use FindFirstChild() instead</string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ReflectionMetadataEvents">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">ChildAdded</string>
+						<string name="summary">Fired after a child is added</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">ChildRemoved</string>
+						<string name="summary">Fired after a child is removed</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Changed</string>
+						<string name="summary">Fired after a property changes value.	The property argument is the name of the property</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">14</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">BodyGyro</string>
+				<string name="summary">Attempts to maintain a fixed orientation of its parent Part</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">maxTorque</string>
+						<string name="summary">The maximum torque that will be exerted on the Part</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">14</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">BodyPosition</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">14</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">RocketPropulsion</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A propulsion system that mimics a rocket</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">14</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">BodyVelocity</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">14</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">BodyAngularVelocity</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">14</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">BodyForce</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">14</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">BodyThrust</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Hole</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Feature</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">23</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">Teams</string>
+				<string name="summary">This Service-level object is the container for all Team objects in a level. A map that supports team games must have a Teams service. &lt;a href=&quot;http://wiki.roblox.com/index.php?title=RBX.lua.Teams&quot; target=&quot;_blank&quot;&gt;More info&lt;/a&gt;</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">24</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">Team</string>
+				<string name="summary">The Team class is used to represent a faction in a team game. The only valid location for a Team object is under the Teams service. &lt;a href=&quot;http://wiki.roblox.com/index.php?title=RBX.lua.Team&quot; target=&quot;_blank&quot;&gt;More info&lt;/a&gt;</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">27</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">HtmlService</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">26</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">HtmlWindow</string>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">25</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">SpawnLocation</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">16</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">NetworkClient</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">15</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">NetworkServer</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">6</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Script</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">LinkedScript</string>
+						<bool name="Preliminary">true</bool>
+						<string name="summary">This property is under development. Do not use</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">18</int>
+				<int name="ExplorerOrder">4</int>
+				<string name="Name">LocalScript</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">29</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">NetworkReplicator</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">2</int>
+				<int name="ExplorerOrder">10</int>
+				<string name="Name">Model</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">move</string>
+						<string name="summary">Use MoveTo() instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">makeJoints</string>
+						<string name="summary">Use MakeJoints() instead</string>
+						<bool name="Deprecated">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">2</int>
+				<int name="ExplorerOrder">10</int>
+				<string name="Name">Status</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">move</string>
+						<string name="summary">Use MoveTo() instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">DataModel</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Properties>
+				</Properties>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Workspace</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">workspace</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Deprecated. Use Workspace</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">ShowMouse</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Deprecated. Use Workspace.IsMouseCursorVisible</string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">get</string>
+						<string name="summary">Use GetObjects() instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">SetPlaceID</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use SetPlaceId() instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">SetCreatorID</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use SetCreatorId() instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">22</int>
+				<int name="ExplorerOrder">24</int>
+				<string name="Name">HopperBin</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">5</int>
+				<int name="ExplorerOrder">5</int>
+				<string name="Name">Camera</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">21</int>
+				<int name="ExplorerOrder">2</int>
+				<string name="Name">Players</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">players</string>
+						<string name="summary">Use GetPlayers() instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">13</int>
+				<int name="ExplorerOrder">3</int>
+				<string name="Name">Lighting</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">30</int>
+				<int name="ExplorerOrder">10</int>
+				<string name="Name">Debris</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">addItem</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Use AddItem() instead</string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">MaxItems</string>
+						<string name="summary">Deprecated. No replacement</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">32</int>
+				<int name="ExplorerOrder">0</int>
+				<string name="Name">Accoutrement</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">12</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">Player</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">CharacterAppearance</string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">playerFromCharacter</string>
+						<string name="summary">Use GetPlayerFromCharacter() instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">SetUnder13</string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ReflectionMetadataEvents">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Idled</string>
+						<string name="summary">Fired periodically after the user has been AFK for a while.	Currently this event is only fired for the *local* Player.	&quot;time&quot; is the time in seconds that the user has been idle.</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">19</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">Workspace</string>
+				<string name="summary">A service that renders bricks</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">FindPartsInRegion3</string>
+						<string name="summary">Returns parts in the area defined by the Region3, up to specified maxCount or 100, whichever is less</string>
+						<bool name="Preliminary">true</bool>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+					<string name="Name">FindPartsInRegion3WithIgnoreList</string>
+						<string name="summary">Returns parts in the area defined by the Region3, up to specified maxCount or 100, whichever is less</string>
+						<bool name="Preliminary">true</bool>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+					<string name="Name">FindPartOnRay</string>
+						<string name="summary">Return type is (BasePart, Vector3) if the ray hits.  If it misses it will return (nil, PointAtEndOfRay)</string>
+						<bool name="Preliminary">true</bool>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">FindPartOnRayWithIgnoreList</string>
+						<string name="summary">Return type is (BasePart, Vector3) if the ray hits.  If it misses it will return (nil, PointAtEndOfRay)</string>
+						<bool name="Preliminary">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ReflectionMetadataMember">
+				<Properties>
+					<string name="Name">FindPartOnRay</string>
+					<bool name="Preliminary">true</bool>
+					<string name="summary">Return type is (BasePart, Vector3) if the ray hits.  If it misses it will return (nil, PointAtEndOfRay)</string>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">BasePart</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">Color</string>
+						<string name="summary">Deprecated. Use BrickColor instead</string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">makeJoints</string>
+						<string name="summary">Use MakeJoints() instead</string>
+						<bool name="Deprecated">true</bool>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">getMass</string>
+						<string name="summary">Use GetMass() instead</string>
+						<bool name="Deprecated">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ReflectionMetadataEvents">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">OutfitChanged</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">LocalSimulationTouched</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">Deprecated. Use Touched instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">StoppedTouching</string>
+						<bool name="Preliminary">true</bool>
+						<string name="summary">Deprecated. Use TouchEnded instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">TouchEnded</string>
+						<string name="summary">Fired when the part stops touching another part</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">11</int>
+				<string name="Name">Part</string>
+				<string name="summary">A plastic building block - the fundamental component of ROBLOX</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">12</int>
+				<string name="Name">TrussPart</string>
+				<string name="summary">An extendable building truss</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">12</int>
+				<string name="Name">WedgePart</string>
+				<string name="summary">A Wedge Part</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">12</int>
+				<string name="Name">PrismPart</string>
+				<string name="summary">A Prism Part</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">12</int>
+				<string name="Name">PyramidPart</string>
+				<string name="summary">A Pyramid Part</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">12</int>
+				<string name="Name">ParallelRampPart</string>
+				<string name="summary">A ParallelRamp Part</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">12</int>
+				<string name="Name">RightAngleRampPart</string>
+				<string name="summary">A RightAngleRamp Part</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">12</int>
+				<string name="Name">CornerWedgePart</string>
+				<string name="summary">A CornerWedge Part</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">LocalBackpackTool</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">LocalBackpackSwitcher</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PhysicsService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">GuidRegistryService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">HumanoidController</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">VehicleController</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">RunService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ContentProvider</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ContentFilter</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ControllerService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Geometry</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">TimerService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">SpawnerService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PlayerMouse</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">BadgeService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ScriptInformationProvider</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">VirtualUser</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadata</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataClasses</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataItem</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataClass</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataProperties</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataFunctions</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataEvents</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataMember</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">CollectionService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PVAdornment</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">JointsService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PlayerCamera</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">46</int>
+				<int name="ExplorerOrder">9993</int>
+				<string name="Name">CoreGui</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">BaseScript</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">FormFactorPart</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PartAdornment</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">GuiService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">46</int>
+				<int name="ExplorerOrder">13</int>
+				<string name="Name">PlayerGui</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A container instance that syncs data between a single player and the server.  ScreenGui objects that are placed in this container will be shown to the Player parent only</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">GuiBase</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">GuiObject</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">BackgroundColor</string>
+						<string name="summary">Deprecated. Use BackgroundColor3 instead</string>
+					</Properties>
+				</Item>
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">BorderColor</string>
+						<string name="summary">Deprecated. Use BorderColor3 instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">GuiButton</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">GuiLabel</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">47</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">ScreenGui</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">The core GUI object on which tools are built.  Add Frames/Labels/Buttons to this object to have them rendered as a 2D overlay</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">FunctionalTest</string>
+				<string name="summary">Used in test frameworks</string>
+				<bool name="Preliminary">true</bool>
+				<string name="ExplorerOrder">1</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">64</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">BillboardGui</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A GUI that adorns an object in the 3D world.  Add Frames/Labels/Buttons to this object to have them rendered while attached to a 3D object</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<bool name="Deprecated">true</bool>
+				<int name="ExplorerImageIndex">47</int>
+				<int name="ExplorerOrder">14</int>
+				<string name="Name">GuiMain</string>
+				<string name="summary">Deprecated, please use ScreenGui</string>
+			</Properties>
+		</Item>
+
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">NotificationBox</string>
+				<int name="ExplorerImageIndex">48</int>
+				<int name="ExplorerOrder">20</int>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">NotificationObject</string>
+				<int name="ExplorerImageIndex">48</int>
+				<int name="ExplorerOrder">20</int>
+				<bool name="Preliminary">true</bool>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">48</int>
+				<int name="ExplorerOrder">15</int>
+				<string name="Name">Frame</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A container object used to layout other GUI objects</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">49</int>
+				<int name="ExplorerOrder">18</int>
+				<string name="Name">ImageLabel</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A GUI object containing an Image</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">50</int>
+				<int name="ExplorerOrder">19</int>
+				<string name="Name">TextLabel</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A GUI object containing text</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">TextColor</string>
+						<string name="summary">Deprecated. Use TextColor3 instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">52</int>
+				<int name="ExplorerOrder">16</int>
+				<string name="Name">ImageButton</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A GUI button containing an Image</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">51</int>
+				<int name="ExplorerOrder">17</int>
+				<string name="Name">TextButton</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A GUI button containing text</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">TextColor</string>
+						<string name="summary">Deprecated. Use TextColor3 instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">51</int>
+				<int name="ExplorerOrder">17</int>
+				<string name="Name">TextBox</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A text entry box</string>
+			</Properties>
+			<Item class="ReflectionMetadataProperties">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<bool name="Deprecated">true</bool>
+						<string name="Name">TextColor</string>
+						<string name="summary">Deprecated. Use TextColor3 instead</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">Adornment</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">GuiBase3d</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">53</int>
+				<int name="ExplorerOrder">19</int>
+				<string name="Name">Handles</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A 3D GUI object to represent draggable handles</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">56</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">ArcHandles</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A 3D GUI object to represent draggable arc handles</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">54</int>
+				<int name="ExplorerOrder">19</int>
+				<string name="Name">SelectionBox</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A 3D GUI object to represent the visible selection around an object</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">55</int>
+				<int name="ExplorerOrder">21</int>
+				<string name="Name">SurfaceSelection</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A 3D GUI object to represent the visible selection around a face of an object</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">58</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">Configuration</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">An object that can be placed under parts to hold Value objects that represent that part's configuration</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">1</int>
+				<int name="ExplorerOrder">1</int>
+				<string name="Name">SelectionLasso</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">57</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">SelectionPartLasso</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A visual line representation drawn between two part objects</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">57</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">SelectionPointLasso</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">A visual line representation drawn between two positions</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Dragger</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">InsertService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">PartPairLasso</string>
+				<string name="summary">A visual line drawn representation between two parts (neither needs to be a humanoid)</string>
+				<bool name="Preliminary">true</bool>
+				<string name="ExplorerOrder">22</string>
+				<string name="ExplorerImageIndex">57</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">60</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">Pose</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">The pose of a joint relative to it&apos;s parent part in a keyframe</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">60</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">Keyframe</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">One keyframe of an animation</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">60</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">Animation</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">Represents a linked animation object, containing keyframes and poses.</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">60</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">AnimationTrack</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">Returned by a call to LoadAnimation, controls the playback of an animation on a Humanoid.</string>
+			</Properties>
+			<Item class="ReflectionMetadataEvents">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">Stopped</string>
+						<bool name="Deprecated">true</bool>
+						<string name="summary">This event is never raised</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">60</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">CharacterMesh</string>
+				<bool name="Preliminary">true</bool>
+				<string name="summary">Modified the appearance of a body part.</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Animator</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">KeyframeSequenceProvider</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">KeyframeSequence</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">SkateboardController</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Controller</string>
+				<string name="summary">A structural class, not creatable</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">HumanoidController</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">SkateboardController</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">VehicleController</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PseudoPlayer</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">LuaWebService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">18</int>
+				<int name="ExplorerOrder">22</int>
+				<string name="Name">CoreScript</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Chat</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">SocialService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">Dialog</string>
+				<string name="summary">An object used to make dialog trees to converse with players</string>
+				<bool name="Preliminary">true</bool>
+				<string name="ExplorerOrder">22</string>
+				<string name="ExplorerImageIndex">62</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">DialogChoice</string>
+				<string name="summary">An object used to make dialog trees to converse with players</string>
+				<bool name="Preliminary">true</bool>
+				<string name="ExplorerOrder">22</string>
+				<string name="ExplorerImageIndex">63</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Stats</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">MeshContentProvider</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">TextureContentProvider</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">TextService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">ManualWeld</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">BasePlayerGui</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">FlagStandService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Advanced Dragger</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">HandlesBase</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataCallbacks</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ReflectionMetadataYieldFunctions</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">34</int>
+				<int name="ExplorerOrder">20</int>
+				<string name="Name">ManualGlue</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">ButtonBindingWidget</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">RunningAverageItemInt</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">RunningAverageItemDouble</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">Scale9Frame</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">AnimationTrackState</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PlayerHUD</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">UserSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">3</int>
+				<int name="ExplorerOrder">9998</int>
+				<string name="Name">UserGameSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">LocalWorkspace</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">FriendService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">TweenService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerImageIndex">18</int>
+				<int name="ExplorerOrder">21</int>
+				<string name="Name">StarterScript</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">RenderHooksService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">CookiesService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9998</int>
+				<int name="ExplorerImageIndex">3</int>
+				<string name="Name">FastLogSettings</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">InstancePacketCache</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PhysicsPacketCache</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">TerrainService</string>
+			</Properties>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<string name="Name">Terrain</string>
+				<string name="summary">Object representing a high performance bounded grid of static 4x4 parts</string>
+				<bool name="Preliminary">true</bool>
+				<string name="ExplorerOrder">0</string>
+				<string name="ExplorerImageIndex">65</string>
+			</Properties>
+			<Item class="ReflectionMetadataFunctions">
+				<Item class="ReflectionMetadataMember">
+					<Properties>
+						<string name="Name">GetCell</string>
+						<string name="summary">Returns CellMaterial, CellBlock, CellOrientation</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ReflectionMetadataClass">
+			<Properties>
+				<int name="ExplorerOrder">9999</int>
+				<string name="Name">PersonalServerService</string>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

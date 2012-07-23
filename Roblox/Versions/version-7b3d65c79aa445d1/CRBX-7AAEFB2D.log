@@ -1,0 +1,292 @@
+01-23-2012 15:12:58 NP_GetEntryPoints
+01-23-2012 15:12:58 NPRobloxProxy: NP_Initialize
+01-23-2012 15:12:58 CoInitialize Ok
+01-23-2012 15:12:58 newv
+01-23-2012 15:12:58 location.host contains substring=roblox.com
+01-23-2012 15:12:58 setWindow
+01-23-2012 15:12:58 getvalue - scriptable object : NPP instance=025508C0 objList.find(instance)=02D91480
+01-23-2012 15:12:58 hasProperty
+01-23-2012 15:12:58 hasMethod
+01-23-2012 15:12:58 invoke
+01-23-2012 15:12:58 invokeRobloxAdapterHello 0x025508f0
+01-23-2012 15:12:58 IRobloxLauncher->Hello() result 0
+01-23-2012 15:12:58 RobloxAdapterHello result=39127256 size=6 ssMess=World
+01-23-2012 15:12:58 hasProperty
+01-23-2012 15:12:58 hasMethod
+01-23-2012 15:12:58 invoke
+01-23-2012 15:12:58 invokeRobloxAdapterGet_InstallHost 0x025508f0
+01-23-2012 15:12:58 RobloxAdapterGet_InstallHost result=39342368 size=17 ssMess=setup.roblox.com
+01-23-2012 15:12:58 hasProperty
+01-23-2012 15:12:58 hasMethod
+01-23-2012 15:12:58 invoke
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_start len = 29
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:12:58 hasProperty
+01-23-2012 15:12:58 hasMethod
+01-23-2012 15:12:58 invoke
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue key = rbx_evt_ftp len = 11
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:12:58 hasProperty
+01-23-2012 15:12:58 hasMethod
+01-23-2012 15:12:58 invoke
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_success len = 31
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:12:58 hasProperty
+01-23-2012 15:12:58 hasMethod
+01-23-2012 15:12:58 invoke
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue key = rbx_evt_fmp len = 11
+01-23-2012 15:12:58 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:12:58 setWindow
+01-23-2012 15:12:58 destroy
+01-23-2012 15:13:03 newv
+01-23-2012 15:13:03 location.host contains substring=roblox.com
+01-23-2012 15:13:03 setWindow
+01-23-2012 15:13:03 getvalue - scriptable object : NPP instance=02550850 objList.find(instance)=02D911F8
+01-23-2012 15:13:03 hasProperty
+01-23-2012 15:13:03 hasMethod
+01-23-2012 15:13:03 invoke
+01-23-2012 15:13:03 invokeRobloxAdapterHello 0x02550c40
+01-23-2012 15:13:03 IRobloxLauncher->Hello() result 0
+01-23-2012 15:13:03 RobloxAdapterHello result=39128408 size=6 ssMess=World
+01-23-2012 15:13:03 hasProperty
+01-23-2012 15:13:03 hasMethod
+01-23-2012 15:13:03 invoke
+01-23-2012 15:13:03 invokeRobloxAdapterGet_InstallHost 0x02550c40
+01-23-2012 15:13:03 RobloxAdapterGet_InstallHost result=39390176 size=17 ssMess=setup.roblox.com
+01-23-2012 15:13:03 hasProperty
+01-23-2012 15:13:03 hasMethod
+01-23-2012 15:13:03 invoke
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_start len = 29
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:03 hasProperty
+01-23-2012 15:13:03 hasMethod
+01-23-2012 15:13:03 invoke
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue key = rbx_evt_ftp len = 11
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:03 hasProperty
+01-23-2012 15:13:03 hasMethod
+01-23-2012 15:13:03 invoke
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_success len = 31
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:03 hasProperty
+01-23-2012 15:13:03 hasMethod
+01-23-2012 15:13:03 invoke
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue key = rbx_evt_fmp len = 11
+01-23-2012 15:13:03 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:03 setWindow
+01-23-2012 15:13:03 destroy
+01-23-2012 15:13:08 newv
+01-23-2012 15:13:08 location.host contains substring=roblox.com
+01-23-2012 15:13:08 setWindow
+01-23-2012 15:13:08 getvalue - scriptable object : NPP instance=025509E0 objList.find(instance)=02D911F8
+01-23-2012 15:13:08 hasProperty
+01-23-2012 15:13:08 hasMethod
+01-23-2012 15:13:08 invoke
+01-23-2012 15:13:08 invokeRobloxAdapterHello 0x02550768
+01-23-2012 15:13:08 IRobloxLauncher->Hello() result 0
+01-23-2012 15:13:08 RobloxAdapterHello result=39127112 size=6 ssMess=World
+01-23-2012 15:13:08 hasProperty
+01-23-2012 15:13:08 hasMethod
+01-23-2012 15:13:08 invoke
+01-23-2012 15:13:08 invokeRobloxAdapterGet_InstallHost 0x02550768
+01-23-2012 15:13:08 RobloxAdapterGet_InstallHost result=39388544 size=17 ssMess=setup.roblox.com
+01-23-2012 15:13:08 hasProperty
+01-23-2012 15:13:08 hasMethod
+01-23-2012 15:13:08 invoke
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_start len = 29
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:08 hasProperty
+01-23-2012 15:13:08 hasMethod
+01-23-2012 15:13:08 invoke
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue key = rbx_evt_ftp len = 11
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:08 hasProperty
+01-23-2012 15:13:08 hasMethod
+01-23-2012 15:13:08 invoke
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_success len = 31
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:08 hasProperty
+01-23-2012 15:13:08 hasMethod
+01-23-2012 15:13:08 invoke
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue key = rbx_evt_fmp len = 11
+01-23-2012 15:13:08 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:08 setWindow
+01-23-2012 15:13:08 destroy
+01-23-2012 15:13:13 newv
+01-23-2012 15:13:13 location.host contains substring=roblox.com
+01-23-2012 15:13:13 setWindow
+01-23-2012 15:13:13 getvalue - scriptable object : NPP instance=02550778 objList.find(instance)=02D911F8
+01-23-2012 15:13:13 hasProperty
+01-23-2012 15:13:13 hasMethod
+01-23-2012 15:13:13 invoke
+01-23-2012 15:13:13 invokeRobloxAdapterHello 0x025507a0
+01-23-2012 15:13:13 IRobloxLauncher->Hello() result 0
+01-23-2012 15:13:13 RobloxAdapterHello result=39126920 size=6 ssMess=World
+01-23-2012 15:13:13 hasProperty
+01-23-2012 15:13:13 hasMethod
+01-23-2012 15:13:13 invoke
+01-23-2012 15:13:13 invokeRobloxAdapterGet_InstallHost 0x025507a0
+01-23-2012 15:13:13 RobloxAdapterGet_InstallHost result=39387488 size=17 ssMess=setup.roblox.com
+01-23-2012 15:13:13 hasProperty
+01-23-2012 15:13:13 hasMethod
+01-23-2012 15:13:13 invoke
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_start len = 29
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:13 hasProperty
+01-23-2012 15:13:13 hasMethod
+01-23-2012 15:13:13 invoke
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue key = rbx_evt_ftp len = 11
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:13 hasProperty
+01-23-2012 15:13:13 hasMethod
+01-23-2012 15:13:13 invoke
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_success len = 31
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:13 hasProperty
+01-23-2012 15:13:13 hasMethod
+01-23-2012 15:13:13 invoke
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue key = rbx_evt_fmp len = 11
+01-23-2012 15:13:13 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:13 setWindow
+01-23-2012 15:13:13 destroy
+01-23-2012 15:13:18 newv
+01-23-2012 15:13:18 location.host contains substring=roblox.com
+01-23-2012 15:13:18 setWindow
+01-23-2012 15:13:18 getvalue - scriptable object : NPP instance=02550798 objList.find(instance)=02D911F8
+01-23-2012 15:13:18 hasProperty
+01-23-2012 15:13:18 hasMethod
+01-23-2012 15:13:18 invoke
+01-23-2012 15:13:18 invokeRobloxAdapterHello 0x025507d0
+01-23-2012 15:13:18 IRobloxLauncher->Hello() result 0
+01-23-2012 15:13:18 RobloxAdapterHello result=39126968 size=6 ssMess=World
+01-23-2012 15:13:18 hasProperty
+01-23-2012 15:13:18 hasMethod
+01-23-2012 15:13:18 invoke
+01-23-2012 15:13:18 invokeRobloxAdapterGet_InstallHost 0x025507d0
+01-23-2012 15:13:18 RobloxAdapterGet_InstallHost result=39398016 size=17 ssMess=setup.roblox.com
+01-23-2012 15:13:18 hasProperty
+01-23-2012 15:13:18 hasMethod
+01-23-2012 15:13:18 invoke
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_start len = 29
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:18 hasProperty
+01-23-2012 15:13:18 hasMethod
+01-23-2012 15:13:18 invoke
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue key = rbx_evt_ftp len = 11
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:18 hasProperty
+01-23-2012 15:13:18 hasMethod
+01-23-2012 15:13:18 invoke
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_success len = 31
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:18 hasProperty
+01-23-2012 15:13:18 hasMethod
+01-23-2012 15:13:18 invoke
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue key = rbx_evt_fmp len = 11
+01-23-2012 15:13:18 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:18 setWindow
+01-23-2012 15:13:18 destroy
+01-23-2012 15:13:23 newv
+01-23-2012 15:13:23 location.host contains substring=roblox.com
+01-23-2012 15:13:23 setWindow
+01-23-2012 15:13:23 getvalue - scriptable object : NPP instance=025507C8 objList.find(instance)=02D911F8
+01-23-2012 15:13:23 hasProperty
+01-23-2012 15:13:23 hasMethod
+01-23-2012 15:13:23 invoke
+01-23-2012 15:13:23 invokeRobloxAdapterHello 0x02550800
+01-23-2012 15:13:23 IRobloxLauncher->Hello() result 0
+01-23-2012 15:13:23 RobloxAdapterHello result=39127016 size=6 ssMess=World
+01-23-2012 15:13:23 hasProperty
+01-23-2012 15:13:23 hasMethod
+01-23-2012 15:13:23 invoke
+01-23-2012 15:13:23 invokeRobloxAdapterGet_InstallHost 0x02550800
+01-23-2012 15:13:23 RobloxAdapterGet_InstallHost result=39397856 size=17 ssMess=setup.roblox.com
+01-23-2012 15:13:23 hasProperty
+01-23-2012 15:13:23 hasMethod
+01-23-2012 15:13:23 invoke
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_start len = 29
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:23 hasProperty
+01-23-2012 15:13:23 hasMethod
+01-23-2012 15:13:23 invoke
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue key = rbx_evt_ftp len = 11
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:23 hasProperty
+01-23-2012 15:13:23 hasMethod
+01-23-2012 15:13:23 invoke
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_success len = 31
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:23 hasProperty
+01-23-2012 15:13:23 hasMethod
+01-23-2012 15:13:23 invoke
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue key = rbx_evt_fmp len = 11
+01-23-2012 15:13:23 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:23 setWindow
+01-23-2012 15:13:23 destroy
+01-23-2012 15:13:28 newv
+01-23-2012 15:13:28 location.host contains substring=roblox.com
+01-23-2012 15:13:28 setWindow
+01-23-2012 15:13:28 getvalue - scriptable object : NPP instance=025507F8 objList.find(instance)=02D911F8
+01-23-2012 15:13:28 hasProperty
+01-23-2012 15:13:28 hasMethod
+01-23-2012 15:13:28 invoke
+01-23-2012 15:13:28 invokeRobloxAdapterHello 0x02550830
+01-23-2012 15:13:28 IRobloxLauncher->Hello() result 0
+01-23-2012 15:13:28 RobloxAdapterHello result=39127064 size=6 ssMess=World
+01-23-2012 15:13:28 hasProperty
+01-23-2012 15:13:28 hasMethod
+01-23-2012 15:13:28 invoke
+01-23-2012 15:13:28 invokeRobloxAdapterGet_InstallHost 0x02550830
+01-23-2012 15:13:28 RobloxAdapterGet_InstallHost result=39395936 size=17 ssMess=setup.roblox.com
+01-23-2012 15:13:28 hasProperty
+01-23-2012 15:13:28 hasMethod
+01-23-2012 15:13:28 invoke
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_start len = 29
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:28 hasProperty
+01-23-2012 15:13:28 hasMethod
+01-23-2012 15:13:28 invoke
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue key = rbx_evt_ftp len = 11
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:28 hasProperty
+01-23-2012 15:13:28 hasMethod
+01-23-2012 15:13:28 invoke
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue key = rbx_evt_initial_install_success len = 31
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:28 hasProperty
+01-23-2012 15:13:28 hasMethod
+01-23-2012 15:13:28 invoke
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue key = rbx_evt_fmp len = 11
+01-23-2012 15:13:28 invokeRobloxAdapterGetKeyValue value = RBX_NOT_VALID len = 13
+01-23-2012 15:13:28 setWindow
+01-23-2012 15:13:28 destroy
+01-23-2012 15:13:29 NPRobloxProxy: NP_Shutdown
+01-23-2012 15:13:29 CoUninitialize Ok
